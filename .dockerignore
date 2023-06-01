@@ -1,0 +1,14 @@
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+README.md
+.next
+out
+
+.*
+cypress/
+jest*
+docker-compose.yaml
+nginx*
+vercel.json

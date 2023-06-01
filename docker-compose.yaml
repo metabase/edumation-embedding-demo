@@ -1,0 +1,92 @@
+version: '3.9'
+services:
+  # this is the Metabase app container
+  metabase_full_app_embedding_demo:
+    build: metabase-build/.
+    container_name: metabase_full_app_embedding_demo
+    hostname: metabase
+    volumes: 
+    - /dev/urandom:/dev/random:ro
+    ports:
+      - 3000:3000
+    environment: 
+      - MB_SITE_URL=http://localhost:3000
+      # - MB_SESSION_COOKIE_SAMESITE=None
+      - MB_EMBEDDING_APP_ORIGIN=*
+      - MB_ENABLE_EMBEDDING=true
+      - MB_PREMIUM_EMBEDDING_TOKEN=<your metabase premium token>
+      - MB_JWT_ENABLED=true
+      - MB_JWT_IDENTITY_PROVIDER_URI=http://localhost:8080/api/auth/metabase
+      - MB_JWT_SHARED_SECRET=ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+      - MB_DB_TYPE=postgres
+      - MB_DB_DBNAME=metabase
+      - MB_DB_PORT=5432
+      - MB_DB_USER=metabase
+      - MB_DB_PASS=mysecretpassword
+      - MB_DB_HOST=postgres-app-db
+      - MB_APPLICATION_COLORS={"accent2":"#E31B54","accent0-dark":"#53389E","accent5":"#1570EF","accent3-light":"#FD853A","accent5-dark":"#1849A9","accent6-light":"#8098F9","accent3-dark":"#9C2A10","accent2-light":"#FD6F8E","accent1-light":"#F670C7","accent6":"#444CE7","brand":"#6941C6","accent1":"#DD2590","accent3":"#EC4A0A","filter":"#6941C6","accent0-light":"#B692F6","accent6-dark":"#2D31A6","accent0":"#7F56D9","accent4":"#0086C9","accent7-light":"#717BBC","accent2-dark":"#A11043","accent7-dark":"#293056","accent4-dark":"#065986","accent1-dark":"#9E165F","accent7":"#3E4784","accent4-light":"#36BFFA","accent5-light":"#53B1FD","summarize":"#6941C6"}"
+      - MB_ENABLE_PUBLIC_SHARING=true
+      - MB_APPLICATION_NAME=Edumation
+      - MB_APPLICATION_LOGO_URL=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iMTAiIGZpbGw9IiM3RjU2RDkiLz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfaV81MzJfMjU0OTcpIj4KPHJlY3QgeD0iNS42NDcwNiIgeT0iNS42NDcwOSIgd2lkdGg9IjIwLjcwNTkiIGhlaWdodD0iMjAuNzA1OSIgcng9IjUiIGZpbGw9IiM2OTQxQzYiLz4KPC9nPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMV9pXzUzMl8yNTQ5NykiPgo8cmVjdCB4PSI5LjM0NDY3IiB5PSIxNiIgd2lkdGg9IjkuNDExNzciIGhlaWdodD0iOS40MTE3NyIgcng9IjIuNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1IDkuMzQ0NjcgMTYpIiBmaWxsPSIjNTMzODlFIi8+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfaV81MzJfMjU0OTciIHg9IjUuNjQ3MDYiIHk9IjUuNjQ3MDkiIHdpZHRoPSIyMC43MDU5IiBoZWlnaHQ9IjI0LjcwNTkiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiIHJlc3VsdD0iaGFyZEFscGhhIi8+CjxmZU9mZnNldCBkeT0iNCIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIyIi8+CjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9ImFyaXRobWV0aWMiIGsyPSItMSIgazM9IjEiLz4KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMjUgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0ic2hhcGUiIHJlc3VsdD0iZWZmZWN0MV9pbm5lclNoYWRvd181MzJfMjU0OTciLz4KPC9maWx0ZXI+CjxmaWx0ZXIgaWQ9ImZpbHRlcjFfaV81MzJfMjU0OTciIHg9IjEwLjM4MDIiIHk9IjEwLjM4MDQiIHdpZHRoPSIxMS4yMzkyIiBoZWlnaHQ9IjE1LjIzOTMiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiIHJlc3VsdD0iaGFyZEFscGhhIi8+CjxmZU9mZnNldCBkeT0iNCIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIyIi8+CjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9ImFyaXRobWV0aWMiIGsyPSItMSIgazM9IjEiLz4KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMjUgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0ic2hhcGUiIHJlc3VsdD0iZWZmZWN0MV9pbm5lclNoYWRvd181MzJfMjU0OTciLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg==
+      - MB_ANON_TRACKING_ENABLED=false
+      - MB_JWT_GROUP_MAPPINGS={"Read Only":[3],"Professors":[4]}
+    networks: 
+      - metanet1
+    healthcheck:
+      test: curl --fail -I http://localhost:3000/api/health || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    depends_on:
+      metabase_app_db:
+        condition: service_healthy
+  # this is the container that runs the webapp
+  node_full_app_embedding_demo:
+    build: .
+    container_name: webapp_full_app_embedding_demo
+    hostname: webapp
+    ports:
+      - 8080:3003
+    networks:
+      - metanet1
+    environment:
+      - "METABASE_JWT_SHARED_SECRET=ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      - "NODE_ENV=development"
+      - "METABASE_APP_ID=localhost"
+      - "METABASE_APP_PORT=3000"
+  metabase_app_db:
+    image: postgres:15.2-alpine
+    container_name: postgres-app-db
+    hostname: postgres-app-db
+    volumes:
+      - $PWD/app-db-initialization:/docker-entrypoint-initdb.d
+    environment:
+      - "POSTGRES_USER=metabase"
+      - "POSTGRES_DB=metabase"
+      - "POSTGRES_PASSWORD=mysecretpassword"
+    networks: 
+      - metanet1
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U metabase -d metabase"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  # this is the container that holds the data
+  edumation_data:
+    image: postgres:15.2-alpine
+    container_name: edumation_data
+    hostname: edumation_data
+    environment:
+      - "POSTGRES_PASSWORD=edumation"
+    networks: 
+      - metanet1
+    volumes:
+      - $PWD/edumation-db:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d postgres"]
+      interval: 60s
+      timeout: 10s
+      retries: 10
+networks: 
+  metanet1:
+    driver: bridge

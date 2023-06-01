@@ -1,0 +1,13 @@
+course_id,course_name,rating,difficulty,tags,professor_id,professor_name,number_of_students
+1,Algorithmic Toolbox,4.7,Intermediate Level,Computer Science|Algorithms,1,Mary Smith,31
+2,First Step Korean,4.8,Beginner Level,Language Learning|Other Languages,2,Anna Johnson,155
+3,Heritage under Threat,4.7,Beginner Level,Arts and Humanities|History,1,Mary Smith,63
+4,Genomics for Law,4.8,Beginner Level,Social Sciences|Law,2,Anna Johnson,53
+5,Archaeoastronomy,4.5,Beginner Level,Physical Science and Engineering|Physics and Astronomy,2,Anna Johnson,62
+6,Wind Energy,4.7,,Physical Science and Engineering|Mechanical Engineering,2,Anna Johnson,95
+7,Analytic Combinatorics,4.7,Intermediate Level,Math and Logic|Math and Logic,1,Mary Smith,114
+8,American Contract Law I,4.9,Beginner Level,Social Sciences|Law,1,Mary Smith,56
+9,Israel State and Society,4.7,Beginner Level,Social Sciences|Governance and Society,1,Mary Smith,156
+10,Managing as a Coach,4.7,,Business|Leadership and Management,1,Mary Smith,66
+11,FinTech Risk Management,4.5,Beginner Level,Business|Business Essentials,1,Mary Smith,97
+12,Types of Conflict,4.3,,Business|Business Essentials,2,Anna Johnson,69

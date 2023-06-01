@@ -1,0 +1,1018 @@
+student_course_id,student_id,student_name,course_id,course_name,semester,grade,status
+1,1071,Melvin Peterson,1,Algorithmic Toolbox,9,62,Passed
+2,1287,Fletcher Marquez,1,Algorithmic Toolbox,9,60,Failed
+3,1270,Clint Sims,1,Algorithmic Toolbox,9,91,Passed
+4,1017,Floyd Taylor,1,Algorithmic Toolbox,9,67,Passed
+5,1101,Irvin Powell,1,Algorithmic Toolbox,9,87,Passed
+6,1111,Owen Gonzales,1,Algorithmic Toolbox,9,59,Failed
+7,1022,Marion Perez,1,Algorithmic Toolbox,9,75,Passed
+8,1118,Emmett Alexander,1,Algorithmic Toolbox,9,93,Passed
+9,1043,Perry Nelson,1,Algorithmic Toolbox,9,77,Passed
+10,1188,Donald Ferguson,1,Algorithmic Toolbox,9,82,Passed
+11,1362,Perley Hale,1,Algorithmic Toolbox,9,93,Passed
+12,1259,Ulysses Lynch,1,Algorithmic Toolbox,9,83,Passed
+13,1004,Isaac Brown,1,Algorithmic Toolbox,9,84,Passed
+14,1241,Allie Greene,1,Algorithmic Toolbox,10,93,Passed
+15,1227,Emmet Pena,1,Algorithmic Toolbox,10,62,Passed
+16,1298,Elwood Luna,1,Algorithmic Toolbox,10,68,Passed
+17,1020,Leonard Martin,1,Algorithmic Toolbox,10,85,Passed
+18,1136,Ora Murray,1,Algorithmic Toolbox,10,77,Passed
+19,1146,Mathew Kennedy,1,Algorithmic Toolbox,10,65,Passed
+20,1330,Lawson Miranda,1,Algorithmic Toolbox,10,96,Passed
+21,1353,Harris Moran,1,Algorithmic Toolbox,10,98,Passed
+22,1137,Ollie Ford,1,Algorithmic Toolbox,10,71,Passed
+23,1029,Raymond Lewis,1,Algorithmic Toolbox,10,70,Passed
+24,1138,Pearl Castro,1,Algorithmic Toolbox,10,94,Passed
+25,1222,Forrest Berry,1,Algorithmic Toolbox,10,91,Passed
+26,1025,Archie Harris,1,Algorithmic Toolbox,10,75,Passed
+27,1096,Earnest Myers,1,Algorithmic Toolbox,10,95,Passed
+28,1193,Edmond Ryan,1,Algorithmic Toolbox,10,64,Passed
+29,1243,Judson Wheeler,1,Algorithmic Toolbox,10,95,Passed
+30,1024,Allen White,1,Algorithmic Toolbox,10,95,Passed
+31,1094,Roscoe Sanders,1,Algorithmic Toolbox,10,70,Passed
+32,1103,Jose Perry,2,First Step Korean,6,84,Passed
+33,1043,Perry Nelson,2,First Step Korean,6,75,Passed
+34,1320,Minor Molina,2,First Step Korean,6,77,Passed
+35,1337,Francisco Neal,2,First Step Korean,6,72,Passed
+36,1101,Irvin Powell,2,First Step Korean,6,94,Passed
+37,1256,Douglas Lawson,2,First Step Korean,6,57,Failed
+38,1326,Dee Chambers,2,First Step Korean,6,99,Passed
+39,1318,Hans Avila,2,First Step Korean,6,84,Passed
+40,1348,Clay Watts,2,First Step Korean,6,78,Passed
+41,1009,Patrick Rodriguez,2,First Step Korean,6,95,Passed
+42,1064,Winfield Murphy,2,First Step Korean,6,68,Passed
+43,1203,Tony Vazquez,2,First Step Korean,6,95,Passed
+44,1077,Elijah Kim,2,First Step Korean,7,68,Passed
+45,1147,Nathaniel Wells,2,First Step Korean,7,95,Passed
+46,1202,Myron Pierce,2,First Step Korean,7,88,Passed
+47,1291,Roger Little,2,First Step Korean,7,73,Passed
+48,1165,Lonnie Snyder,2,First Step Korean,7,96,Passed
+49,1311,Loren Douglas,2,First Step Korean,7,84,Passed
+50,1355,Jesus Steele,2,First Step Korean,7,95,Passed
+51,1094,Roscoe Sanders,2,First Step Korean,7,61,Passed
+52,1273,King Li,2,First Step Korean,7,64,Passed
+53,1158,Cyrus Simpson,2,First Step Korean,7,75,Passed
+54,1345,Adrian Schwartz,2,First Step Korean,7,63,Passed
+55,1106,Virgil Bell,2,First Step Korean,7,71,Passed
+56,1170,Grant Hicks,2,First Step Korean,7,59,Failed
+57,1191,Barney Soto,2,First Step Korean,7,69,Passed
+58,1096,Earnest Myers,2,First Step Korean,7,94,Passed
+59,1095,Sylvester Patel,2,First Step Korean,7,60,Failed
+60,1330,Lawson Miranda,2,First Step Korean,7,81,Passed
+61,1210,Isaiah Elliott,2,First Step Korean,7,91,Passed
+62,1212,Ezra Duncan,2,First Step Korean,8,75,Passed
+63,1244,Lyman Valdez,2,First Step Korean,8,92,Passed
+64,1353,Harris Moran,2,First Step Korean,8,80,Passed
+65,1097,Hiram Long,2,First Step Korean,8,80,Passed
+66,1112,Wiley Fisher,2,First Step Korean,8,86,Passed
+67,1272,Granville Howell,2,First Step Korean,8,57,Failed
+68,1128,Curtis Bryant,2,First Step Korean,8,70,Passed
+69,1062,Everett Morris,2,First Step Korean,8,64,Passed
+70,1156,Vernon Crawford,2,First Step Korean,8,80,Passed
+71,1157,Wade Olson,2,First Step Korean,8,74,Passed
+72,1207,Riley Hart,2,First Step Korean,8,86,Passed
+73,1061,Moses Stewart,2,First Step Korean,8,87,Passed
+74,1180,Gustave Fox,2,First Step Korean,8,83,Passed
+75,1138,Pearl Castro,2,First Step Korean,8,91,Passed
+76,1306,Evan Juarez,2,First Step Korean,8,89,Passed
+77,1290,Neil Yang,2,First Step Korean,8,88,Passed
+78,1169,Emery Hunt,2,First Step Korean,8,61,Passed
+79,1328,Jason Beck,2,First Step Korean,9,71,Passed
+80,1215,Clifton Carroll,2,First Step Korean,9,88,Passed
+81,1063,Lester Morales,2,First Step Korean,9,76,Passed
+82,1223,Roland Perkins,2,First Step Korean,9,66,Passed
+83,1313,Mason Joseph,2,First Step Korean,9,79,Passed
+84,1108,Elbert Butler,2,First Step Korean,9,83,Passed
+85,1139,Russell Marshall,2,First Step Korean,9,84,Passed
+86,1364,Sandy Hail,2,First Step Korean,9,90,Passed
+87,1166,Monroe Mason,2,First Step Korean,9,73,Passed
+88,1323,Allan Campos,2,First Step Korean,9,71,Passed
+89,1017,Floyd Taylor,2,First Step Korean,9,76,Passed
+90,1084,Christopher Wood,2,First Step Korean,9,89,Passed
+91,1042,Calvin Adams,2,First Step Korean,9,88,Passed
+92,1218,Arnold Andrews,2,First Step Korean,9,94,Passed
+93,1259,Ulysses Lynch,2,First Step Korean,9,72,Passed
+94,1137,Ollie Ford,2,First Step Korean,9,85,Passed
+95,1019,Jack Jackson,2,First Step Korean,9,94,Passed
+96,1354,Isom Parks,2,First Step Korean,9,92,Passed
+97,1208,Vincent Bradley,2,First Step Korean,9,72,Passed
+98,1167,Byron Dixon,2,First Step Korean,10,92,Passed
+99,1304,Wilber May,2,First Step Korean,10,83,Passed
+100,1325,Dallas Bates,2,First Step Korean,10,78,Passed
+101,1359,Malcolm Deleon,2,First Step Korean,10,67,Passed
+102,1125,Timothy West,2,First Step Korean,10,70,Passed
+103,1253,Ruben Austin,2,First Step Korean,10,65,Passed
+104,1071,Melvin Peterson,2,First Step Korean,10,60,Failed
+105,1334,Addison Lowe,2,First Step Korean,10,85,Passed
+106,1289,Laurence Park,2,First Step Korean,10,68,Passed
+107,1279,Freeman Garrett,2,First Step Korean,10,60,Failed
+108,1029,Raymond Lewis,2,First Step Korean,10,88,Passed
+109,1133,Stanley Medina,2,First Step Korean,11,67,Passed
+110,1282,Royal Wang,2,First Step Korean,11,66,Passed
+111,1033,Milton Allen,2,First Step Korean,11,67,Passed
+112,1003,Edgar Williams,2,First Step Korean,11,59,Failed
+113,1255,Ward Carr,2,First Step Korean,11,75,Passed
+114,1277,Bennie Le,2,First Step Korean,11,93,Passed
+115,1317,Elliott Keller,2,First Step Korean,11,84,Passed
+116,1226,Don Matthews,2,First Step Korean,11,87,Passed
+117,1105,Abraham Sullivan,2,First Step Korean,11,63,Passed
+118,1129,Edmund Herrera,2,First Step Korean,11,94,Passed
+119,1113,Anton Vasquez,2,First Step Korean,11,93,Passed
+120,1266,Major Harvey,2,First Step Korean,12,64,Passed
+121,1107,Clinton Coleman,2,First Step Korean,12,95,Passed
+122,1082,Silas Brooks,2,First Step Korean,12,90,Passed
+123,1278,Carroll Mccoy,2,First Step Korean,12,89,Passed
+124,1307,Frederic Newman,2,First Step Korean,12,88,Passed
+125,1149,Hubert Henry,2,First Step Korean,12,93,Passed
+126,1365,Tomas Benson,2,First Step Korean,12,86,Passed
+127,1245,Napoleon Harper,2,First Step Korean,12,59,Failed
+128,1059,Matthew Collins,2,First Step Korean,12,87,Passed
+129,1264,Ivan Oliver,2,First Step Korean,12,95,Passed
+130,1315,Abram Navarro,2,First Step Korean,12,83,Passed
+131,1020,Leonard Martin,2,First Step Korean,12,95,Passed
+132,1048,Dennis Mitchell,2,First Step Korean,12,92,Passed
+133,1118,Emmett Alexander,2,First Step Korean,12,82,Passed
+134,1074,Alvin Kelly,2,First Step Korean,13,73,Passed
+135,1052,Alonzo Phillips,2,First Step Korean,13,71,Passed
+136,1028,Willis Ramirez,2,First Step Korean,13,72,Passed
+137,1154,Joshua Guzman,2,First Step Korean,13,78,Passed
+138,1232,Van Lawrence,2,First Step Korean,13,93,Passed
+139,1260,Walker Singh,2,First Step Korean,13,82,Passed
+140,1144,Enoch Woods,2,First Step Korean,13,76,Passed
+141,1305,Clem Holland,2,First Step Korean,13,91,Passed
+142,1231,Ned Carpenter,2,First Step Korean,13,89,Passed
+143,1002,Paul Johnson,2,First Step Korean,13,67,Passed
+144,1109,Leslie Henderson,2,First Step Korean,13,69,Passed
+145,1027,Chester Clark,2,First Step Korean,13,59,Failed
+146,1314,Orval Barrett,2,First Step Korean,13,97,Passed
+147,1246,Pedro Burke,2,First Step Korean,13,98,Passed
+148,1342,Vern Fleming,2,First Step Korean,13,92,Passed
+149,1162,Austin Mendez,2,First Step Korean,13,70,Passed
+150,1240,Mitchell Watkins,2,First Step Korean,13,77,Passed
+151,1177,Pete Rose,2,First Step Korean,14,81,In Progress
+152,1045,Anthony Hall,2,First Step Korean,14,58,In Progress
+153,1241,Allie Greene,2,First Step Korean,14,64,In Progress
+154,1293,Glen Padilla,2,First Step Korean,14,83,In Progress
+155,1192,Delbert Weaver,2,First Step Korean,14,85,In Progress
+156,1087,Adolph Gray,2,First Step Korean,14,56,In Progress
+157,1134,Columbus Aguilar,2,First Step Korean,14,82,In Progress
+158,1161,Sherman Gordon,2,First Step Korean,14,77,In Progress
+159,1183,Bruce Meyer,2,First Step Korean,14,61,In Progress
+160,1175,Gordon Robertson,2,First Step Korean,14,72,In Progress
+161,1361,Otho Terry,2,First Step Korean,14,61,In Progress
+162,1049,Clifford Carter,2,First Step Korean,14,81,In Progress
+163,1104,Wilbur Russell,2,First Step Korean,14,81,In Progress
+164,1287,Fletcher Marquez,2,First Step Korean,14,79,In Progress
+165,1257,Ole Jacobs,2,First Step Korean,14,60,In Progress
+166,1037,Ray Torres,2,First Step Korean,14,71,In Progress
+167,1292,Seth Banks,2,First Step Korean,14,53,In Progress
+168,1283,Dick Weber,2,First Step Korean,15,18,In Progress
+169,1338,Hardy Leonard,2,First Step Korean,15,15,In Progress
+170,1322,Wilfred Hopkins,2,First Step Korean,15,10,In Progress
+171,1143,Clayton Mcdonald,2,First Step Korean,15,10,In Progress
+172,1030,Rufus Robinson,2,First Step Korean,15,12,In Progress
+173,1075,Norman Howard,2,First Step Korean,15,14,In Progress
+174,1054,Franklin Turner,2,First Step Korean,15,12,In Progress
+175,1347,Bertram Jennings,2,First Step Korean,15,16,In Progress
+176,1198,Luke Kelley,2,First Step Korean,15,15,In Progress
+177,1121,Wilson Reynolds,2,First Step Korean,15,11,In Progress
+178,1331,Lew Byrd,2,First Step Korean,15,6,In Progress
+179,1102,Mark Jenkins,2,First Step Korean,15,15,In Progress
+180,1021,Horace Lee,2,First Step Korean,15,11,In Progress
+181,1344,Zack Shelton,2,First Step Korean,15,14,In Progress
+182,1083,Jake Chavez,2,First Step Korean,15,12,In Progress
+183,1211,Nick Cunningham,2,First Step Korean,15,12,In Progress
+184,1053,Garfield Evans,2,First Step Korean,15,19,In Progress
+185,1024,Allen White,2,First Step Korean,15,15,In Progress
+186,1046,Eddie Rivera,2,First Step Korean,15,18,In Progress
+187,1084,Christopher Wood,3,Heritage under Threat,2,96,Passed
+188,1345,Adrian Schwartz,3,Heritage under Threat,2,74,Passed
+189,1019,Jack Jackson,3,Heritage under Threat,2,85,Passed
+190,1156,Vernon Crawford,3,Heritage under Threat,2,67,Passed
+191,1284,Earle Welch,3,Heritage under Threat,2,97,Passed
+192,1078,Victor Cox,3,Heritage under Threat,2,89,Passed
+193,1360,Merritt Barker,3,Heritage under Threat,2,65,Passed
+194,1196,Glenn Grant,3,Heritage under Threat,2,74,Passed
+195,1352,Grover Mcdaniel,3,Heritage under Threat,2,87,Passed
+196,1086,Percy Bennett,3,Heritage under Threat,2,89,Passed
+197,1155,Millard Burns,3,Heritage under Threat,2,81,Passed
+198,1098,Otis Ross,3,Heritage under Threat,3,87,Passed
+199,1257,Ole Jacobs,3,Heritage under Threat,3,76,Passed
+200,1208,Vincent Bradley,3,Heritage under Threat,3,65,Passed
+201,1023,Philip Thompson,3,Heritage under Threat,3,84,Passed
+202,1340,Randolph Carrillo,3,Heritage under Threat,3,94,Passed
+203,1318,Hans Avila,3,Heritage under Threat,3,76,Passed
+204,1004,Isaac Brown,3,Heritage under Threat,3,61,Passed
+205,1163,Bill Silva,3,Heritage under Threat,3,97,Passed
+206,1146,Mathew Kennedy,3,Heritage under Threat,3,67,Passed
+207,1366,Wilford Haynes,3,Heritage under Threat,3,63,Passed
+208,1329,Johnny Lambert,3,Heritage under Threat,3,62,Passed
+209,1006,Luther Garcia,3,Heritage under Threat,3,61,Passed
+210,1339,Lucien Gregory,3,Heritage under Threat,3,97,Passed
+211,1036,Julius Scott,3,Heritage under Threat,3,61,Passed
+212,1110,Marshall Barnes,3,Heritage under Threat,3,71,Passed
+213,1269,Caleb Dean,3,Heritage under Threat,3,90,Passed
+214,1087,Adolph Gray,3,Heritage under Threat,3,67,Passed
+215,1213,Green Armstrong,3,Heritage under Threat,3,76,Passed
+216,1083,Jake Chavez,3,Heritage under Threat,3,87,Passed
+217,1168,Edd Munoz,3,Heritage under Threat,4,93,Passed
+218,1338,Hardy Leonard,3,Heritage under Threat,4,64,Passed
+219,1067,Mack Gutierrez,3,Heritage under Threat,4,69,Passed
+220,1007,Lawrence Miller,3,Heritage under Threat,4,84,Passed
+221,1242,Josh Nunez,3,Heritage under Threat,4,84,Passed
+222,1210,Isaiah Elliott,3,Heritage under Threat,4,61,Passed
+223,1277,Bennie Le,3,Heritage under Threat,4,96,Passed
+224,1065,Adam Cook,3,Heritage under Threat,4,89,Passed
+225,1187,Dock Daniels,3,Heritage under Threat,4,60,Failed
+226,1275,Merton Reid,3,Heritage under Threat,4,69,Passed
+227,1064,Winfield Murphy,3,Heritage under Threat,4,57,Failed
+228,1300,Harmon Mejia,3,Heritage under Threat,4,81,Passed
+229,1310,Lafayette Cortez,3,Heritage under Threat,4,77,Passed
+230,1184,Marcus Rice,3,Heritage under Threat,4,69,Passed
+231,1150,Lemuel Chen,3,Heritage under Threat,4,88,Passed
+232,1043,Perry Nelson,3,Heritage under Threat,4,93,Passed
+233,1011,Oliver Hernandez,3,Heritage under Threat,4,93,Passed
+234,1080,Nelson Richardson,3,Heritage under Threat,5,73,Passed
+235,1108,Elbert Butler,3,Heritage under Threat,5,59,Failed
+236,1079,Gus Ward,3,Heritage under Threat,5,65,Passed
+237,1296,Johnnie Bowman,3,Heritage under Threat,5,78,Passed
+238,1325,Dallas Bates,3,Heritage under Threat,5,92,Passed
+239,1225,Burton Johnston,3,Heritage under Threat,5,62,Passed
+240,1212,Ezra Duncan,3,Heritage under Threat,5,86,Passed
+241,1112,Wiley Fisher,3,Heritage under Threat,5,97,Passed
+242,1176,Abe Boyd,3,Heritage under Threat,5,94,Passed
+243,1259,Ulysses Lynch,3,Heritage under Threat,5,64,Passed
+244,1234,Chauncey Guerrero,3,Heritage under Threat,5,95,Passed
+245,1314,Orval Barrett,3,Heritage under Threat,5,90,Passed
+246,1165,Lonnie Snyder,3,Heritage under Threat,5,95,Passed
+247,1185,Preston Schmidt,3,Heritage under Threat,5,84,Passed
+248,1048,Dennis Mitchell,3,Heritage under Threat,5,85,Passed
+249,1104,Wilbur Russell,3,Heritage under Threat,5,57,Failed
+250,1107,Clinton Coleman,4,Genomics for Law,2,96,Passed
+251,1165,Lonnie Snyder,4,Genomics for Law,2,75,Passed
+252,1213,Green Armstrong,4,Genomics for Law,2,80,Passed
+253,1129,Edmund Herrera,4,Genomics for Law,2,87,Passed
+254,1150,Lemuel Chen,4,Genomics for Law,2,97,Passed
+255,1097,Hiram Long,4,Genomics for Law,2,84,Passed
+256,1093,Claud Castillo,4,Genomics for Law,2,74,Passed
+257,1194,Anderson Gardner,4,Genomics for Law,2,73,Passed
+258,1155,Millard Burns,4,Genomics for Law,2,82,Passed
+259,1012,Theodore Lopez,4,Genomics for Law,2,90,Passed
+260,1043,Perry Nelson,4,Genomics for Law,2,79,Passed
+261,1086,Percy Bennett,4,Genomics for Law,3,99,Passed
+262,1274,Mary Wong,4,Genomics for Law,3,82,Passed
+263,1141,Arch Harrison,4,Genomics for Law,3,73,Passed
+264,1225,Burton Johnston,4,Genomics for Law,3,91,Passed
+265,1019,Jack Jackson,4,Genomics for Law,3,77,Passed
+266,1251,Lynn Franklin,4,Genomics for Law,3,80,Passed
+267,1314,Orval Barrett,4,Genomics for Law,3,95,Passed
+268,1189,Jackson Nichols,4,Genomics for Law,3,62,Passed
+269,1131,Elias Ellis,4,Genomics for Law,3,74,Passed
+270,1056,Leon Parker,4,Genomics for Law,3,63,Passed
+271,1300,Harmon Mejia,4,Genomics for Law,3,78,Passed
+272,1205,Joel Peters,4,Genomics for Law,3,62,Passed
+273,1005,Otto Jones,4,Genomics for Law,3,61,Passed
+274,1128,Curtis Bryant,4,Genomics for Law,3,82,Passed
+275,1070,Jess Cooper,4,Genomics for Law,4,60,Failed
+276,1201,Ike Arnold,4,Genomics for Law,4,94,Passed
+277,1139,Russell Marshall,4,Genomics for Law,4,93,Passed
+278,1221,Taylor Delgado,4,Genomics for Law,4,91,Passed
+279,1028,Willis Ramirez,4,Genomics for Law,4,67,Passed
+280,1198,Luke Kelley,4,Genomics for Law,4,73,Passed
+281,1191,Barney Soto,4,Genomics for Law,4,69,Passed
+282,1171,Jerome Holmes,4,Genomics for Law,4,59,Failed
+283,1340,Randolph Carrillo,4,Genomics for Law,4,83,Passed
+284,1026,Stephen Sanchez,4,Genomics for Law,4,62,Passed
+285,1348,Clay Watts,4,Genomics for Law,4,94,Passed
+286,1223,Roland Perkins,4,Genomics for Law,4,66,Passed
+287,1008,Ira Davis,4,Genomics for Law,4,96,Passed
+288,1115,Manuel Romero,4,Genomics for Law,4,94,Passed
+289,1323,Allan Campos,4,Genomics for Law,4,59,Failed
+290,1262,Adelbert Bishop,4,Genomics for Law,4,67,Passed
+291,1215,Clifton Carroll,4,Genomics for Law,4,86,Passed
+292,1306,Evan Juarez,4,Genomics for Law,4,64,Passed
+293,1200,Burt Hawkins,4,Genomics for Law,5,55,Failed
+294,1100,Willard Jimenez,4,Genomics for Law,5,96,Passed
+295,1037,Ray Torres,4,Genomics for Law,5,62,Passed
+296,1236,Ferdinand Chapman,4,Genomics for Law,5,74,Passed
+297,1260,Walker Singh,4,Genomics for Law,5,62,Passed
+298,1068,Fredrick Ortiz,4,Genomics for Law,5,88,Passed
+299,1345,Adrian Schwartz,4,Genomics for Law,5,88,Passed
+300,1166,Monroe Mason,4,Genomics for Law,5,61,Passed
+301,1203,Tony Vazquez,4,Genomics for Law,5,79,Passed
+302,1058,Harold Edwards,4,Genomics for Law,5,94,Passed
+303,1047,Amos Campbell,5,Archaeoastronomy,7,83,Passed
+304,1288,Judge Fields,5,Archaeoastronomy,7,79,Passed
+305,1076,Gilbert Ramos,5,Archaeoastronomy,7,61,Passed
+306,1344,Zack Shelton,5,Archaeoastronomy,7,72,Passed
+307,1068,Fredrick Ortiz,5,Archaeoastronomy,7,95,Passed
+308,1015,Alexander Anderson,5,Archaeoastronomy,7,64,Passed
+309,1330,Lawson Miranda,5,Archaeoastronomy,7,70,Passed
+310,1264,Ivan Oliver,5,Archaeoastronomy,7,59,Failed
+311,1206,Matt Santos,5,Archaeoastronomy,7,70,Passed
+312,1036,Julius Scott,5,Archaeoastronomy,7,81,Passed
+313,1147,Nathaniel Wells,5,Archaeoastronomy,7,75,Passed
+314,1114,Morris Simmons,5,Archaeoastronomy,8,94,Passed
+315,1319,Karl Wade,5,Archaeoastronomy,8,90,Passed
+316,1160,Rudolph Hunter,5,Archaeoastronomy,8,93,Passed
+317,1067,Mack Gutierrez,5,Archaeoastronomy,8,85,Passed
+318,1239,Kenneth Ortega,5,Archaeoastronomy,8,94,Passed
+319,1346,Alvah Norris,5,Archaeoastronomy,8,76,Passed
+320,1152,Ellis Webb,5,Archaeoastronomy,8,84,Passed
+321,1232,Van Lawrence,5,Archaeoastronomy,8,59,Failed
+322,1097,Hiram Long,5,Archaeoastronomy,8,61,Passed
+323,1296,Johnnie Bowman,5,Archaeoastronomy,8,65,Passed
+324,1016,August Thomas,5,Archaeoastronomy,8,93,Passed
+325,1179,Clark Salazar,5,Archaeoastronomy,8,65,Passed
+326,1181,Orville Warren,5,Archaeoastronomy,8,90,Passed
+327,1144,Enoch Woods,5,Archaeoastronomy,8,91,Passed
+328,1099,Simon Foster,5,Archaeoastronomy,8,92,Passed
+329,1270,Clint Sims,5,Archaeoastronomy,8,62,Passed
+330,1269,Caleb Dean,5,Archaeoastronomy,8,74,Passed
+331,1236,Ferdinand Chapman,5,Archaeoastronomy,8,74,Passed
+332,1120,Nicholas Graham,5,Archaeoastronomy,8,90,Passed
+333,1193,Edmond Ryan,5,Archaeoastronomy,9,65,Passed
+334,1199,Neal Spencer,5,Archaeoastronomy,9,97,Passed
+335,1358,Lucian Holt,5,Archaeoastronomy,9,82,Passed
+336,1028,Willis Ramirez,5,Archaeoastronomy,9,98,Passed
+337,1343,Wilmer Rhodes,5,Archaeoastronomy,9,81,Passed
+338,1237,General Rios,5,Archaeoastronomy,9,71,Passed
+339,1345,Adrian Schwartz,5,Archaeoastronomy,9,90,Passed
+340,1008,Ira Davis,5,Archaeoastronomy,9,81,Passed
+341,1182,Lorenzo Mills,5,Archaeoastronomy,9,93,Passed
+342,1349,Ephraim Duran,5,Archaeoastronomy,9,61,Passed
+343,1172,Max Palmer,5,Archaeoastronomy,9,62,Passed
+344,1324,Alphonse Barnett,5,Archaeoastronomy,9,77,Passed
+345,1174,Steve Black,5,Archaeoastronomy,9,76,Passed
+346,1341,Stewart Sutton,5,Archaeoastronomy,9,67,Passed
+347,1019,Jack Jackson,5,Archaeoastronomy,9,78,Passed
+348,1189,Jackson Nichols,5,Archaeoastronomy,9,90,Passed
+349,1069,Jay Morgan,5,Archaeoastronomy,9,73,Passed
+350,1084,Christopher Wood,5,Archaeoastronomy,9,68,Passed
+351,1063,Lester Morales,5,Archaeoastronomy,9,67,Passed
+352,1043,Perry Nelson,5,Archaeoastronomy,9,90,Passed
+353,1070,Jess Cooper,5,Archaeoastronomy,10,91,Passed
+354,1130,Jeff Gibson,5,Archaeoastronomy,10,76,Passed
+355,1225,Burton Johnston,5,Archaeoastronomy,10,76,Passed
+356,1095,Sylvester Patel,5,Archaeoastronomy,10,85,Passed
+357,1136,Ora Murray,5,Archaeoastronomy,10,82,Passed
+358,1218,Arnold Andrews,5,Archaeoastronomy,10,74,Passed
+359,1058,Harold Edwards,5,Archaeoastronomy,10,79,Passed
+360,1360,Merritt Barker,5,Archaeoastronomy,10,68,Passed
+361,1027,Chester Clark,5,Archaeoastronomy,10,87,Passed
+362,1100,Willard Jimenez,5,Archaeoastronomy,10,88,Passed
+363,1126,Marvin Cole,5,Archaeoastronomy,10,89,Passed
+364,1323,Allan Campos,5,Archaeoastronomy,10,63,Passed
+365,1138,Pearl Castro,6,Wind Energy,9,85,Passed
+366,1026,Stephen Sanchez,6,Wind Energy,9,75,Passed
+367,1004,Isaac Brown,6,Wind Energy,9,91,Passed
+368,1057,Nathan Cruz,6,Wind Energy,9,84,Passed
+369,1342,Vern Fleming,6,Wind Energy,9,86,Passed
+370,1331,Lew Byrd,6,Wind Energy,9,66,Passed
+371,1023,Philip Thompson,6,Wind Energy,9,86,Passed
+372,1149,Hubert Henry,6,Wind Energy,9,96,Passed
+373,1238,Julian Estrada,6,Wind Energy,9,70,Passed
+374,1144,Enoch Woods,6,Wind Energy,9,68,Passed
+375,1313,Mason Joseph,6,Wind Energy,9,96,Passed
+376,1235,Elisha George,6,Wind Energy,9,75,Passed
+377,1259,Ulysses Lynch,6,Wind Energy,9,88,Passed
+378,1357,Jonathan Becker,6,Wind Energy,9,92,Passed
+379,1193,Edmond Ryan,6,Wind Energy,9,73,Passed
+380,1079,Gus Ward,6,Wind Energy,9,90,Passed
+381,1337,Francisco Neal,6,Wind Energy,9,82,Passed
+382,1246,Pedro Burke,6,Wind Energy,10,69,Passed
+383,1273,King Li,6,Wind Energy,10,93,Passed
+384,1363,Rolla Leon,6,Wind Energy,10,93,Passed
+385,1338,Hardy Leonard,6,Wind Energy,10,69,Passed
+386,1242,Josh Nunez,6,Wind Energy,10,77,Passed
+387,1056,Leon Parker,6,Wind Energy,10,89,Passed
+388,1285,Elza Rojas,6,Wind Energy,10,92,Passed
+389,1167,Byron Dixon,6,Wind Energy,10,69,Passed
+390,1186,Bob Garza,6,Wind Energy,10,95,Passed
+391,1049,Clifford Carter,6,Wind Energy,10,85,Passed
+392,1264,Ivan Oliver,6,Wind Energy,11,75,Passed
+393,1071,Melvin Peterson,6,Wind Energy,11,80,Passed
+394,1067,Mack Gutierrez,6,Wind Energy,11,57,Failed
+395,1053,Garfield Evans,6,Wind Energy,11,90,Passed
+396,1162,Austin Mendez,6,Wind Energy,11,93,Passed
+397,1069,Jay Morgan,6,Wind Energy,11,61,Passed
+398,1365,Tomas Benson,6,Wind Energy,11,60,Failed
+399,1084,Christopher Wood,6,Wind Energy,11,93,Passed
+400,1072,Noah Bailey,6,Wind Energy,11,86,Passed
+401,1176,Abe Boyd,6,Wind Energy,11,91,Passed
+402,1065,Adam Cook,6,Wind Energy,11,70,Passed
+403,1014,Clyde Wilson,6,Wind Energy,11,81,Passed
+404,1183,Bruce Meyer,6,Wind Energy,11,94,Passed
+405,1352,Grover Mcdaniel,6,Wind Energy,11,73,Passed
+406,1305,Clem Holland,6,Wind Energy,11,71,Passed
+407,1038,Sidney Nguyen,6,Wind Energy,11,79,Passed
+408,1051,Wesley Gomez,6,Wind Energy,11,87,Passed
+409,1286,Emerson Lucas,6,Wind Energy,12,66,Passed
+410,1041,Jerry Green,6,Wind Energy,12,96,Passed
+411,1106,Virgil Bell,6,Wind Energy,12,93,Passed
+412,1210,Isaiah Elliott,6,Wind Energy,12,93,Passed
+413,1164,Chas Shaw,6,Wind Energy,12,79,Passed
+414,1184,Marcus Rice,6,Wind Energy,12,90,Passed
+415,1166,Monroe Mason,6,Wind Energy,12,79,Passed
+416,1082,Silas Brooks,6,Wind Energy,12,86,Passed
+417,1254,Sanford Dominguez,6,Wind Energy,12,67,Passed
+418,1064,Winfield Murphy,6,Wind Energy,12,80,Passed
+419,1261,Wilbert Vega,6,Wind Energy,12,73,Passed
+420,1165,Lonnie Snyder,6,Wind Energy,12,64,Passed
+421,1296,Johnnie Bowman,6,Wind Energy,13,67,Passed
+422,1104,Wilbur Russell,6,Wind Energy,13,91,Passed
+423,1163,Bill Silva,6,Wind Energy,13,94,Passed
+424,1022,Marion Perez,6,Wind Energy,13,63,Passed
+425,1011,Oliver Hernandez,6,Wind Energy,13,71,Passed
+426,1319,Karl Wade,6,Wind Energy,13,70,Passed
+427,1366,Wilford Haynes,6,Wind Energy,13,65,Passed
+428,1212,Ezra Duncan,6,Wind Energy,13,75,Passed
+429,1283,Dick Weber,6,Wind Energy,13,80,Passed
+430,1249,Ervin Maldonado,6,Wind Energy,13,72,Passed
+431,1101,Irvin Powell,6,Wind Energy,13,96,Passed
+432,1268,Archibald Gilbert,6,Wind Energy,13,98,Passed
+433,1126,Marvin Cole,6,Wind Energy,13,76,Passed
+434,1196,Glenn Grant,6,Wind Energy,14,66,In Progress
+435,1284,Earle Welch,6,Wind Energy,14,78,In Progress
+436,1275,Merton Reid,6,Wind Energy,14,74,In Progress
+437,1241,Allie Greene,6,Wind Energy,14,63,In Progress
+438,1229,Louie Contreras,6,Wind Energy,14,74,In Progress
+439,1087,Adolph Gray,6,Wind Energy,14,66,In Progress
+440,1118,Emmett Alexander,6,Wind Energy,14,55,In Progress
+441,1119,Eli Hamilton,6,Wind Energy,14,82,In Progress
+442,1191,Barney Soto,6,Wind Energy,14,85,In Progress
+443,1353,Harris Moran,6,Wind Energy,14,82,In Progress
+444,1256,Douglas Lawson,6,Wind Energy,14,77,In Progress
+445,1135,Lon Stevens,6,Wind Energy,14,55,In Progress
+446,1035,Leo Wright,6,Wind Energy,14,74,In Progress
+447,1042,Calvin Adams,6,Wind Energy,14,73,In Progress
+448,1021,Horace Lee,6,Wind Energy,15,20,In Progress
+449,1086,Percy Bennett,6,Wind Energy,15,16,In Progress
+450,1089,Cornelius Ruiz,6,Wind Energy,15,16,In Progress
+451,1130,Jeff Gibson,6,Wind Energy,15,20,In Progress
+452,1108,Elbert Butler,6,Wind Energy,15,23,In Progress
+453,1121,Wilson Reynolds,6,Wind Energy,15,15,In Progress
+454,1202,Myron Pierce,6,Wind Energy,15,14,In Progress
+455,1334,Addison Lowe,6,Wind Energy,15,17,In Progress
+456,1345,Adrian Schwartz,6,Wind Energy,15,15,In Progress
+457,1207,Riley Hart,6,Wind Energy,15,19,In Progress
+458,1281,Milo Fuller,6,Wind Energy,15,21,In Progress
+459,1291,Roger Little,6,Wind Energy,15,16,In Progress
+460,1102,Mark Jenkins,7,Analytic Combinatorics,8,100,Passed
+461,1005,Otto Jones,7,Analytic Combinatorics,8,100,Passed
+462,1180,Gustave Fox,7,Analytic Combinatorics,8,61,Passed
+463,1043,Perry Nelson,7,Analytic Combinatorics,8,82,Passed
+464,1272,Granville Howell,7,Analytic Combinatorics,8,99,Passed
+465,1225,Burton Johnston,7,Analytic Combinatorics,8,55,Failed
+466,1036,Julius Scott,7,Analytic Combinatorics,8,68,Passed
+467,1178,Chris Stone,7,Analytic Combinatorics,8,95,Passed
+468,1017,Floyd Taylor,7,Analytic Combinatorics,8,84,Passed
+469,1240,Mitchell Watkins,7,Analytic Combinatorics,8,83,Passed
+470,1234,Chauncey Guerrero,7,Analytic Combinatorics,8,91,Passed
+471,1254,Sanford Dominguez,7,Analytic Combinatorics,8,64,Passed
+472,1107,Clinton Coleman,7,Analytic Combinatorics,8,64,Passed
+473,1027,Chester Clark,7,Analytic Combinatorics,8,71,Passed
+474,1026,Stephen Sanchez,7,Analytic Combinatorics,8,86,Passed
+475,1003,Edgar Williams,7,Analytic Combinatorics,8,81,Passed
+476,1219,Bud Alvarado,7,Analytic Combinatorics,9,77,Passed
+477,1139,Russell Marshall,7,Analytic Combinatorics,9,72,Passed
+478,1231,Ned Carpenter,7,Analytic Combinatorics,9,67,Passed
+479,1348,Clay Watts,7,Analytic Combinatorics,9,89,Passed
+480,1150,Lemuel Chen,7,Analytic Combinatorics,9,92,Passed
+481,1097,Hiram Long,7,Analytic Combinatorics,9,67,Passed
+482,1105,Abraham Sullivan,7,Analytic Combinatorics,9,90,Passed
+483,1034,Alex King,7,Analytic Combinatorics,9,65,Passed
+484,1320,Minor Molina,7,Analytic Combinatorics,9,59,Failed
+485,1268,Archibald Gilbert,7,Analytic Combinatorics,9,79,Passed
+486,1265,Jonas Jensen,7,Analytic Combinatorics,9,95,Passed
+487,1112,Wiley Fisher,7,Analytic Combinatorics,9,67,Passed
+488,1158,Cyrus Simpson,7,Analytic Combinatorics,10,62,Passed
+489,1010,Guy Martinez,7,Analytic Combinatorics,10,94,Passed
+490,1110,Marshall Barnes,7,Analytic Combinatorics,10,81,Passed
+491,1327,Isiah Caldwell,7,Analytic Combinatorics,10,68,Passed
+492,1303,Wayne Brewer,7,Analytic Combinatorics,10,97,Passed
+493,1269,Caleb Dean,7,Analytic Combinatorics,10,89,Passed
+494,1088,Maurice Mendoza,7,Analytic Combinatorics,10,89,Passed
+495,1071,Melvin Peterson,7,Analytic Combinatorics,10,74,Passed
+496,1015,Alexander Anderson,7,Analytic Combinatorics,10,66,Passed
+497,1343,Wilmer Rhodes,7,Analytic Combinatorics,10,63,Passed
+498,1325,Dallas Bates,7,Analytic Combinatorics,10,65,Passed
+499,1302,Simeon Acosta,7,Analytic Combinatorics,10,92,Passed
+500,1072,Noah Bailey,7,Analytic Combinatorics,11,57,Failed
+501,1184,Marcus Rice,7,Analytic Combinatorics,11,95,Passed
+502,1188,Donald Ferguson,7,Analytic Combinatorics,11,65,Passed
+503,1346,Alvah Norris,7,Analytic Combinatorics,11,80,Passed
+504,1008,Ira Davis,7,Analytic Combinatorics,11,96,Passed
+505,1356,Johnie Vaughn,7,Analytic Combinatorics,11,89,Passed
+506,1276,Antonio Hanson,7,Analytic Combinatorics,11,75,Passed
+507,1314,Orval Barrett,7,Analytic Combinatorics,11,86,Passed
+508,1171,Jerome Holmes,7,Analytic Combinatorics,11,62,Passed
+509,1236,Ferdinand Chapman,7,Analytic Combinatorics,11,66,Passed
+510,1145,Irving Washington,7,Analytic Combinatorics,11,64,Passed
+511,1345,Adrian Schwartz,7,Analytic Combinatorics,11,93,Passed
+512,1148,Scott Vargas,7,Analytic Combinatorics,11,88,Passed
+513,1131,Elias Ellis,7,Analytic Combinatorics,11,87,Passed
+514,1175,Gordon Robertson,7,Analytic Combinatorics,11,56,Failed
+515,1177,Pete Rose,7,Analytic Combinatorics,11,96,Passed
+516,1186,Bob Garza,7,Analytic Combinatorics,11,83,Passed
+517,1237,General Rios,7,Analytic Combinatorics,11,74,Passed
+518,1182,Lorenzo Mills,7,Analytic Combinatorics,11,64,Passed
+519,1224,Spencer Hoffman,7,Analytic Combinatorics,12,59,Failed
+520,1142,Asa Fernandez,7,Analytic Combinatorics,12,83,Passed
+521,1238,Julian Estrada,7,Analytic Combinatorics,12,94,Passed
+522,1048,Dennis Mitchell,7,Analytic Combinatorics,12,77,Passed
+523,1256,Douglas Lawson,7,Analytic Combinatorics,12,68,Passed
+524,1364,Sandy Hail,7,Analytic Combinatorics,12,72,Passed
+525,1216,Lucius Lane,7,Analytic Combinatorics,12,65,Passed
+526,1140,Solomon Owens,7,Analytic Combinatorics,12,96,Passed
+527,1041,Jerry Green,7,Analytic Combinatorics,12,69,Passed
+528,1323,Allan Campos,7,Analytic Combinatorics,12,92,Passed
+529,1018,Homer Moore,7,Analytic Combinatorics,13,78,Passed
+530,1347,Bertram Jennings,7,Analytic Combinatorics,13,92,Passed
+531,1080,Nelson Richardson,7,Analytic Combinatorics,13,95,Passed
+532,1304,Wilber May,7,Analytic Combinatorics,13,80,Passed
+533,1108,Elbert Butler,7,Analytic Combinatorics,13,66,Passed
+534,1172,Max Palmer,7,Analytic Combinatorics,13,91,Passed
+535,1132,Harrison Tran,7,Analytic Combinatorics,13,73,Passed
+536,1321,Wash Stanley,7,Analytic Combinatorics,13,95,Passed
+537,1085,Mike James,7,Analytic Combinatorics,13,94,Passed
+538,1312,Madison Schneider,7,Analytic Combinatorics,13,86,Passed
+539,1081,Jasper Watson,7,Analytic Combinatorics,13,95,Passed
+540,1263,Benjiman Montgomery,7,Analytic Combinatorics,13,85,Passed
+541,1324,Alphonse Barnett,7,Analytic Combinatorics,13,67,Passed
+542,1174,Steve Black,7,Analytic Combinatorics,14,61,In Progress
+543,1223,Roland Perkins,7,Analytic Combinatorics,14,74,In Progress
+544,1270,Clint Sims,7,Analytic Combinatorics,14,78,In Progress
+545,1143,Clayton Mcdonald,7,Analytic Combinatorics,14,55,In Progress
+546,1153,Emanuel Tucker,7,Analytic Combinatorics,14,74,In Progress
+547,1141,Arch Harrison,7,Analytic Combinatorics,14,55,In Progress
+548,1330,Lawson Miranda,7,Analytic Combinatorics,14,76,In Progress
+549,1297,Washington Schultz,7,Analytic Combinatorics,14,57,In Progress
+550,1212,Ezra Duncan,7,Analytic Combinatorics,14,85,In Progress
+551,1014,Clyde Wilson,7,Analytic Combinatorics,14,84,In Progress
+552,1358,Lucian Holt,7,Analytic Combinatorics,14,80,In Progress
+553,1052,Alonzo Phillips,7,Analytic Combinatorics,14,53,In Progress
+554,1260,Walker Singh,7,Analytic Combinatorics,14,74,In Progress
+555,1245,Napoleon Harper,7,Analytic Combinatorics,15,13,In Progress
+556,1294,Hugo Day,7,Analytic Combinatorics,15,14,In Progress
+557,1249,Ervin Maldonado,7,Analytic Combinatorics,15,13,In Progress
+558,1077,Elijah Kim,7,Analytic Combinatorics,15,18,In Progress
+559,1359,Malcolm Deleon,7,Analytic Combinatorics,15,12,In Progress
+560,1363,Rolla Leon,7,Analytic Combinatorics,15,13,In Progress
+561,1122,Alva Griffin,7,Analytic Combinatorics,15,16,In Progress
+562,1084,Christopher Wood,7,Analytic Combinatorics,15,17,In Progress
+563,1057,Nathan Cruz,7,Analytic Combinatorics,15,10,In Progress
+564,1290,Neil Yang,7,Analytic Combinatorics,15,12,In Progress
+565,1111,Owen Gonzales,7,Analytic Combinatorics,15,18,In Progress
+566,1060,Levi Reyes,7,Analytic Combinatorics,15,12,In Progress
+567,1221,Taylor Delgado,7,Analytic Combinatorics,15,13,In Progress
+568,1130,Jeff Gibson,7,Analytic Combinatorics,15,11,In Progress
+569,1287,Fletcher Marquez,7,Analytic Combinatorics,15,18,In Progress
+570,1042,Calvin Adams,7,Analytic Combinatorics,15,17,In Progress
+571,1288,Judge Fields,7,Analytic Combinatorics,15,15,In Progress
+572,1318,Hans Avila,7,Analytic Combinatorics,15,12,In Progress
+573,1322,Wilfred Hopkins,7,Analytic Combinatorics,15,14,In Progress
+574,1022,Marion Perez,8,American Contract Law I,1,88,Passed
+575,1267,Abner Williamson,8,American Contract Law I,1,86,Passed
+576,1364,Sandy Hail,8,American Contract Law I,1,81,Passed
+577,1300,Harmon Mejia,8,American Contract Law I,1,67,Passed
+578,1002,Paul Johnson,8,American Contract Law I,1,76,Passed
+579,1265,Jonas Jensen,8,American Contract Law I,1,83,Passed
+580,1177,Pete Rose,8,American Contract Law I,1,94,Passed
+581,1075,Norman Howard,8,American Contract Law I,1,85,Passed
+582,1195,Christian Payne,8,American Contract Law I,1,69,Passed
+583,1112,Wiley Fisher,8,American Contract Law I,1,56,Failed
+584,1226,Don Matthews,8,American Contract Law I,1,73,Passed
+585,1271,Dudley Espinoza,8,American Contract Law I,1,64,Passed
+586,1243,Judson Wheeler,8,American Contract Law I,1,58,Failed
+587,1211,Nick Cunningham,8,American Contract Law I,1,87,Passed
+588,1139,Russell Marshall,8,American Contract Law I,1,76,Passed
+589,1121,Wilson Reynolds,8,American Contract Law I,1,89,Passed
+590,1295,Jimmie Walsh,8,American Contract Law I,2,66,Passed
+591,1356,Johnie Vaughn,8,American Contract Law I,2,87,Passed
+592,1330,Lawson Miranda,8,American Contract Law I,2,85,Passed
+593,1283,Dick Weber,8,American Contract Law I,2,97,Passed
+594,1098,Otis Ross,8,American Contract Law I,2,74,Passed
+595,1340,Randolph Carrillo,8,American Contract Law I,2,84,Passed
+596,1051,Wesley Gomez,8,American Contract Law I,2,80,Passed
+597,1170,Grant Hicks,8,American Contract Law I,2,75,Passed
+598,1127,Ross Hayes,8,American Contract Law I,2,92,Passed
+599,1355,Jesus Steele,8,American Contract Law I,2,68,Passed
+600,1158,Cyrus Simpson,8,American Contract Law I,2,69,Passed
+601,1179,Clark Salazar,8,American Contract Law I,2,63,Passed
+602,1246,Pedro Burke,8,American Contract Law I,2,89,Passed
+603,1171,Jerome Holmes,8,American Contract Law I,2,96,Passed
+604,1286,Emerson Lucas,8,American Contract Law I,3,83,Passed
+605,1102,Mark Jenkins,8,American Contract Law I,3,86,Passed
+606,1036,Julius Scott,8,American Contract Law I,3,93,Passed
+607,1085,Mike James,8,American Contract Law I,3,86,Passed
+608,1056,Leon Parker,8,American Contract Law I,3,86,Passed
+609,1032,Jessie Young,8,American Contract Law I,3,65,Passed
+610,1237,General Rios,8,American Contract Law I,3,93,Passed
+611,1357,Jonathan Becker,8,American Contract Law I,3,57,Failed
+612,1013,Hugh Gonzalez,8,American Contract Law I,3,82,Passed
+613,1311,Loren Douglas,8,American Contract Law I,3,96,Passed
+614,1039,Bernard Hill,8,American Contract Law I,4,83,Passed
+615,1212,Ezra Duncan,8,American Contract Law I,4,97,Passed
+616,1301,Jordan Davidson,8,American Contract Law I,4,80,Passed
+617,1213,Green Armstrong,8,American Contract Law I,4,97,Passed
+618,1232,Van Lawrence,8,American Contract Law I,4,100,Passed
+619,1133,Stanley Medina,8,American Contract Law I,4,99,Passed
+620,1273,King Li,8,American Contract Law I,4,78,Passed
+621,1229,Louie Contreras,8,American Contract Law I,4,61,Passed
+622,1001,Charley Smith,8,American Contract Law I,4,67,Passed
+623,1339,Lucien Gregory,8,American Contract Law I,4,74,Passed
+624,1314,Orval Barrett,8,American Contract Law I,4,68,Passed
+625,1315,Abram Navarro,8,American Contract Law I,4,83,Passed
+626,1282,Royal Wang,8,American Contract Law I,4,60,Failed
+627,1091,Reuben Price,8,American Contract Law I,4,67,Passed
+628,1228,Gustav Richards,8,American Contract Law I,4,50,Failed
+629,1148,Scott Vargas,8,American Contract Law I,4,67,Passed
+630,1104,Wilbur Russell,9,Israel State and Society,2,94,Passed
+631,1359,Malcolm Deleon,9,Israel State and Society,2,88,Passed
+632,1246,Pedro Burke,9,Israel State and Society,2,66,Passed
+633,1188,Donald Ferguson,9,Israel State and Society,2,95,Passed
+634,1219,Bud Alvarado,9,Israel State and Society,2,70,Passed
+635,1365,Tomas Benson,9,Israel State and Society,2,89,Passed
+636,1321,Wash Stanley,9,Israel State and Society,2,88,Passed
+637,1342,Vern Fleming,9,Israel State and Society,2,83,Passed
+638,1257,Ole Jacobs,9,Israel State and Society,2,89,Passed
+639,1176,Abe Boyd,9,Israel State and Society,2,65,Passed
+640,1178,Chris Stone,9,Israel State and Society,2,75,Passed
+641,1072,Noah Bailey,9,Israel State and Society,2,70,Passed
+642,1320,Minor Molina,9,Israel State and Society,2,73,Passed
+643,1255,Ward Carr,9,Israel State and Society,2,89,Passed
+644,1222,Forrest Berry,9,Israel State and Society,2,94,Passed
+645,1260,Walker Singh,9,Israel State and Society,3,70,Passed
+646,1300,Harmon Mejia,9,Israel State and Society,3,98,Passed
+647,1334,Addison Lowe,9,Israel State and Society,3,86,Passed
+648,1217,Porter Riley,9,Israel State and Society,3,94,Passed
+649,1316,Aubrey Figueroa,9,Israel State and Society,3,77,Passed
+650,1250,Forest Morrison,9,Israel State and Society,3,62,Passed
+651,1168,Edd Munoz,9,Israel State and Society,3,90,Passed
+652,1073,Aaron Reed,9,Israel State and Society,3,71,Passed
+653,1014,Clyde Wilson,9,Israel State and Society,3,66,Passed
+654,1181,Orville Warren,9,Israel State and Society,3,94,Passed
+655,1197,Jefferson Dunn,9,Israel State and Society,3,94,Passed
+656,1258,Omer Obrien,9,Israel State and Society,3,54,Failed
+657,1308,Irwin Pearson,9,Israel State and Society,3,93,Passed
+658,1270,Clint Sims,9,Israel State and Society,3,83,Passed
+659,1158,Cyrus Simpson,9,Israel State and Society,3,78,Passed
+660,1157,Wade Olson,9,Israel State and Society,3,94,Passed
+661,1009,Patrick Rodriguez,9,Israel State and Society,4,84,Passed
+662,1269,Caleb Dean,9,Israel State and Society,4,70,Passed
+663,1069,Jay Morgan,9,Israel State and Society,4,76,Passed
+664,1034,Alex King,9,Israel State and Society,4,92,Passed
+665,1279,Freeman Garrett,9,Israel State and Society,4,81,Passed
+666,1348,Clay Watts,9,Israel State and Society,4,92,Passed
+667,1028,Willis Ramirez,9,Israel State and Society,4,97,Passed
+668,1340,Randolph Carrillo,9,Israel State and Society,4,78,Passed
+669,1247,Berry Larson,9,Israel State and Society,4,92,Passed
+670,1123,Harley Wallace,9,Israel State and Society,4,81,Passed
+671,1058,Harold Edwards,9,Israel State and Society,4,85,Passed
+672,1150,Lemuel Chen,9,Israel State and Society,4,94,Passed
+673,1293,Glen Padilla,9,Israel State and Society,4,91,Passed
+674,1297,Washington Schultz,9,Israel State and Society,4,67,Passed
+675,1302,Simeon Acosta,9,Israel State and Society,4,90,Passed
+676,1221,Taylor Delgado,9,Israel State and Society,4,78,Passed
+677,1305,Clem Holland,9,Israel State and Society,4,79,Passed
+678,1029,Raymond Lewis,9,Israel State and Society,4,92,Passed
+679,1346,Alvah Norris,9,Israel State and Society,5,85,Passed
+680,1278,Carroll Mccoy,9,Israel State and Society,5,63,Passed
+681,1204,Conrad Hansen,9,Israel State and Society,5,92,Passed
+682,1210,Isaiah Elliott,9,Israel State and Society,5,65,Passed
+683,1357,Jonathan Becker,9,Israel State and Society,5,75,Passed
+684,1354,Isom Parks,9,Israel State and Society,5,83,Passed
+685,1043,Perry Nelson,9,Israel State and Society,5,85,Passed
+686,1116,Phillip Jordan,9,Israel State and Society,5,82,Passed
+687,1001,Charley Smith,9,Israel State and Society,5,91,Passed
+688,1125,Timothy West,9,Israel State and Society,5,71,Passed
+689,1038,Sidney Nguyen,9,Israel State and Society,6,81,Passed
+690,1136,Ora Murray,9,Israel State and Society,6,74,Passed
+691,1180,Gustave Fox,9,Israel State and Society,6,70,Passed
+692,1360,Merritt Barker,9,Israel State and Society,6,61,Passed
+693,1345,Adrian Schwartz,9,Israel State and Society,6,80,Passed
+694,1102,Mark Jenkins,9,Israel State and Society,6,84,Passed
+695,1079,Gus Ward,9,Israel State and Society,6,68,Passed
+696,1218,Arnold Andrews,9,Israel State and Society,6,97,Passed
+697,1107,Clinton Coleman,9,Israel State and Society,6,61,Passed
+698,1008,Ira Davis,9,Israel State and Society,6,78,Passed
+699,1149,Hubert Henry,9,Israel State and Society,6,60,Failed
+700,1256,Douglas Lawson,9,Israel State and Society,6,66,Passed
+701,1061,Moses Stewart,9,Israel State and Society,7,64,Passed
+702,1051,Wesley Gomez,9,Israel State and Society,7,94,Passed
+703,1084,Christopher Wood,9,Israel State and Society,7,65,Passed
+704,1093,Claud Castillo,9,Israel State and Society,7,75,Passed
+705,1280,Josiah Burton,9,Israel State and Society,7,88,Passed
+706,1153,Emanuel Tucker,9,Israel State and Society,7,90,Passed
+707,1233,Ambrose Sandoval,9,Israel State and Society,7,82,Passed
+708,1263,Benjiman Montgomery,9,Israel State and Society,7,86,Passed
+709,1240,Mitchell Watkins,9,Israel State and Society,7,87,Passed
+710,1173,Mose Wagner,9,Israel State and Society,7,75,Passed
+711,1349,Ephraim Duran,9,Israel State and Society,7,76,Passed
+712,1165,Lonnie Snyder,9,Israel State and Society,7,72,Passed
+713,1318,Hans Avila,9,Israel State and Society,7,77,Passed
+714,1077,Elijah Kim,9,Israel State and Society,7,71,Passed
+715,1016,August Thomas,9,Israel State and Society,7,91,Passed
+716,1159,Miles Porter,9,Israel State and Society,7,79,Passed
+717,1223,Roland Perkins,9,Israel State and Society,7,73,Passed
+718,1275,Merton Reid,9,Israel State and Society,7,80,Passed
+719,1363,Rolla Leon,9,Israel State and Society,7,80,Passed
+720,1167,Byron Dixon,9,Israel State and Society,7,83,Passed
+721,1336,Erastus Powers,9,Israel State and Society,8,66,Passed
+722,1083,Jake Chavez,9,Israel State and Society,8,77,Passed
+723,1097,Hiram Long,9,Israel State and Society,8,93,Passed
+724,1118,Emmett Alexander,9,Israel State and Society,8,94,Passed
+725,1122,Alva Griffin,9,Israel State and Society,8,92,Passed
+726,1042,Calvin Adams,9,Israel State and Society,8,71,Passed
+727,1095,Sylvester Patel,9,Israel State and Society,8,80,Passed
+728,1087,Adolph Gray,9,Israel State and Society,8,73,Passed
+729,1327,Isiah Caldwell,9,Israel State and Society,8,76,Passed
+730,1343,Wilmer Rhodes,9,Israel State and Society,8,88,Passed
+731,1200,Burt Hawkins,9,Israel State and Society,8,95,Passed
+732,1131,Elias Ellis,9,Israel State and Society,8,91,Passed
+733,1344,Zack Shelton,9,Israel State and Society,8,74,Passed
+734,1283,Dick Weber,9,Israel State and Society,9,70,Passed
+735,1129,Edmund Herrera,9,Israel State and Society,9,65,Passed
+736,1039,Bernard Hill,9,Israel State and Society,9,92,Passed
+737,1055,Emil Diaz,9,Israel State and Society,9,79,Passed
+738,1177,Pete Rose,9,Israel State and Society,9,93,Passed
+739,1130,Jeff Gibson,9,Israel State and Society,9,82,Passed
+740,1020,Leonard Martin,9,Israel State and Society,9,88,Passed
+741,1062,Everett Morris,9,Israel State and Society,9,85,Passed
+742,1053,Garfield Evans,9,Israel State and Society,9,83,Passed
+743,1309,Junius Curtis,9,Israel State and Society,9,91,Passed
+744,1339,Lucien Gregory,9,Israel State and Society,9,97,Passed
+745,1064,Winfield Murphy,9,Israel State and Society,9,90,Passed
+746,1209,Emory Knight,9,Israel State and Society,9,92,Passed
+747,1231,Ned Carpenter,9,Israel State and Society,9,61,Passed
+748,1115,Manuel Romero,9,Israel State and Society,9,92,Passed
+749,1347,Bertram Jennings,9,Israel State and Society,9,93,Passed
+750,1117,Augustus Patterson,9,Israel State and Society,9,98,Passed
+751,1212,Ezra Duncan,9,Israel State and Society,9,71,Passed
+752,1172,Max Palmer,9,Israel State and Society,9,85,Passed
+753,1238,Julian Estrada,9,Israel State and Society,9,79,Passed
+754,1192,Delbert Weaver,9,Israel State and Society,10,65,Passed
+755,1024,Allen White,9,Israel State and Society,10,69,Passed
+756,1353,Harris Moran,9,Israel State and Society,10,82,Passed
+757,1124,Newton Moreno,9,Israel State and Society,10,97,Passed
+758,1106,Virgil Bell,9,Israel State and Society,10,93,Passed
+759,1319,Karl Wade,9,Israel State and Society,10,80,Passed
+760,1362,Perley Hale,9,Israel State and Society,10,97,Passed
+761,1059,Matthew Collins,9,Israel State and Society,10,96,Passed
+762,1052,Alonzo Phillips,9,Israel State and Society,10,65,Passed
+763,1175,Gordon Robertson,9,Israel State and Society,10,94,Passed
+764,1109,Leslie Henderson,9,Israel State and Society,10,91,Passed
+765,1272,Granville Howell,9,Israel State and Society,10,63,Passed
+766,1249,Ervin Maldonado,9,Israel State and Society,10,76,Passed
+767,1145,Irving Washington,9,Israel State and Society,10,65,Passed
+768,1078,Victor Cox,9,Israel State and Society,10,68,Passed
+769,1205,Joel Peters,9,Israel State and Society,10,71,Passed
+770,1119,Eli Hamilton,9,Israel State and Society,11,90,Passed
+771,1044,Dave Baker,9,Israel State and Society,11,90,Passed
+772,1259,Ulysses Lynch,9,Israel State and Society,11,75,Passed
+773,1021,Horace Lee,9,Israel State and Society,11,94,Passed
+774,1230,Morgan Willis,9,Israel State and Society,11,65,Passed
+775,1126,Marvin Cole,9,Israel State and Society,11,79,Passed
+776,1338,Hardy Leonard,9,Israel State and Society,11,61,Passed
+777,1133,Stanley Medina,9,Israel State and Society,11,73,Passed
+778,1213,Green Armstrong,9,Israel State and Society,11,71,Passed
+779,1267,Abner Williamson,9,Israel State and Society,11,84,Passed
+780,1140,Solomon Owens,9,Israel State and Society,11,77,Passed
+781,1195,Christian Payne,9,Israel State and Society,11,62,Passed
+782,1242,Josh Nunez,9,Israel State and Society,11,94,Passed
+783,1206,Matt Santos,9,Israel State and Society,11,84,Passed
+784,1154,Joshua Guzman,9,Israel State and Society,11,60,Failed
+785,1006,Luther Garcia,9,Israel State and Society,11,94,Passed
+786,1201,Ike Arnold,10,Managing as a Coach,7,89,Passed
+787,1274,Mary Wong,10,Managing as a Coach,7,71,Passed
+788,1142,Asa Fernandez,10,Managing as a Coach,7,82,Passed
+789,1198,Luke Kelley,10,Managing as a Coach,7,67,Passed
+790,1325,Dallas Bates,10,Managing as a Coach,7,85,Passed
+791,1137,Ollie Ford,10,Managing as a Coach,7,62,Passed
+792,1200,Burt Hawkins,10,Managing as a Coach,7,68,Passed
+793,1263,Benjiman Montgomery,10,Managing as a Coach,7,99,Passed
+794,1219,Bud Alvarado,10,Managing as a Coach,7,77,Passed
+795,1059,Matthew Collins,10,Managing as a Coach,7,94,Passed
+796,1049,Clifford Carter,10,Managing as a Coach,8,80,Passed
+797,1160,Rudolph Hunter,10,Managing as a Coach,8,93,Passed
+798,1052,Alonzo Phillips,10,Managing as a Coach,8,84,Passed
+799,1118,Emmett Alexander,10,Managing as a Coach,8,90,Passed
+800,1136,Ora Murray,10,Managing as a Coach,8,61,Passed
+801,1192,Delbert Weaver,10,Managing as a Coach,8,88,Passed
+802,1029,Raymond Lewis,10,Managing as a Coach,8,62,Passed
+803,1365,Tomas Benson,10,Managing as a Coach,8,91,Passed
+804,1097,Hiram Long,10,Managing as a Coach,8,73,Passed
+805,1331,Lew Byrd,10,Managing as a Coach,8,73,Passed
+806,1094,Roscoe Sanders,10,Managing as a Coach,8,96,Passed
+807,1061,Moses Stewart,10,Managing as a Coach,8,58,Failed
+808,1345,Adrian Schwartz,10,Managing as a Coach,8,90,Passed
+809,1341,Stewart Sutton,10,Managing as a Coach,8,94,Passed
+810,1021,Horace Lee,10,Managing as a Coach,8,65,Passed
+811,1082,Silas Brooks,10,Managing as a Coach,8,87,Passed
+812,1318,Hans Avila,10,Managing as a Coach,8,96,Passed
+813,1026,Stephen Sanchez,10,Managing as a Coach,9,61,Passed
+814,1312,Madison Schneider,10,Managing as a Coach,9,93,Passed
+815,1064,Winfield Murphy,10,Managing as a Coach,9,67,Passed
+816,1191,Barney Soto,10,Managing as a Coach,9,69,Passed
+817,1176,Abe Boyd,10,Managing as a Coach,9,64,Passed
+818,1328,Jason Beck,10,Managing as a Coach,9,97,Passed
+819,1111,Owen Gonzales,10,Managing as a Coach,9,76,Passed
+820,1073,Aaron Reed,10,Managing as a Coach,9,68,Passed
+821,1292,Seth Banks,10,Managing as a Coach,9,94,Passed
+822,1280,Josiah Burton,10,Managing as a Coach,9,95,Passed
+823,1149,Hubert Henry,10,Managing as a Coach,9,88,Passed
+824,1335,Cal Frazier,10,Managing as a Coach,10,86,Passed
+825,1284,Earle Welch,10,Managing as a Coach,10,59,Failed
+826,1154,Joshua Guzman,10,Managing as a Coach,10,90,Passed
+827,1203,Tony Vazquez,10,Managing as a Coach,10,98,Passed
+828,1184,Marcus Rice,10,Managing as a Coach,10,85,Passed
+829,1285,Elza Rojas,10,Managing as a Coach,10,91,Passed
+830,1344,Zack Shelton,10,Managing as a Coach,10,97,Passed
+831,1105,Abraham Sullivan,10,Managing as a Coach,10,82,Passed
+832,1316,Aubrey Figueroa,10,Managing as a Coach,10,92,Passed
+833,1339,Lucien Gregory,10,Managing as a Coach,10,75,Passed
+834,1170,Grant Hicks,10,Managing as a Coach,11,83,Passed
+835,1366,Wilford Haynes,10,Managing as a Coach,11,63,Passed
+836,1222,Forrest Berry,10,Managing as a Coach,11,83,Passed
+837,1119,Eli Hamilton,10,Managing as a Coach,11,92,Passed
+838,1336,Erastus Powers,10,Managing as a Coach,11,88,Passed
+839,1078,Victor Cox,10,Managing as a Coach,11,77,Passed
+840,1013,Hugh Gonzalez,10,Managing as a Coach,11,85,Passed
+841,1174,Steve Black,10,Managing as a Coach,11,97,Passed
+842,1114,Morris Simmons,10,Managing as a Coach,11,81,Passed
+843,1266,Major Harvey,10,Managing as a Coach,11,65,Passed
+844,1071,Melvin Peterson,10,Managing as a Coach,11,68,Passed
+845,1195,Christian Payne,10,Managing as a Coach,11,69,Passed
+846,1230,Morgan Willis,10,Managing as a Coach,11,83,Passed
+847,1299,Gust Fowler,10,Managing as a Coach,11,90,Passed
+848,1163,Bill Silva,10,Managing as a Coach,11,91,Passed
+849,1229,Louie Contreras,10,Managing as a Coach,11,90,Passed
+850,1157,Wade Olson,10,Managing as a Coach,11,66,Passed
+851,1253,Ruben Austin,10,Managing as a Coach,11,90,Passed
+852,1028,Willis Ramirez,11,FinTech Risk Management,10,95,Passed
+853,1338,Hardy Leonard,11,FinTech Risk Management,10,68,Passed
+854,1251,Lynn Franklin,11,FinTech Risk Management,10,60,Failed
+855,1229,Louie Contreras,11,FinTech Risk Management,10,68,Passed
+856,1239,Kenneth Ortega,11,FinTech Risk Management,10,96,Passed
+857,1145,Irving Washington,11,FinTech Risk Management,10,97,Passed
+858,1198,Luke Kelley,11,FinTech Risk Management,10,94,Passed
+859,1181,Orville Warren,11,FinTech Risk Management,10,89,Passed
+860,1312,Madison Schneider,11,FinTech Risk Management,10,87,Passed
+861,1106,Virgil Bell,11,FinTech Risk Management,10,91,Passed
+862,1017,Floyd Taylor,11,FinTech Risk Management,10,81,Passed
+863,1342,Vern Fleming,11,FinTech Risk Management,10,63,Passed
+864,1135,Lon Stevens,11,FinTech Risk Management,10,58,Failed
+865,1101,Irvin Powell,11,FinTech Risk Management,10,78,Passed
+866,1002,Paul Johnson,11,FinTech Risk Management,10,63,Passed
+867,1358,Lucian Holt,11,FinTech Risk Management,10,92,Passed
+868,1283,Dick Weber,11,FinTech Risk Management,10,77,Passed
+869,1091,Reuben Price,11,FinTech Risk Management,10,88,Passed
+870,1070,Jess Cooper,11,FinTech Risk Management,10,65,Passed
+871,1179,Clark Salazar,11,FinTech Risk Management,10,95,Passed
+872,1021,Horace Lee,11,FinTech Risk Management,11,72,Passed
+873,1357,Jonathan Becker,11,FinTech Risk Management,11,92,Passed
+874,1146,Mathew Kennedy,11,FinTech Risk Management,11,78,Passed
+875,1044,Dave Baker,11,FinTech Risk Management,11,65,Passed
+876,1210,Isaiah Elliott,11,FinTech Risk Management,11,80,Passed
+877,1048,Dennis Mitchell,11,FinTech Risk Management,11,89,Passed
+878,1063,Lester Morales,11,FinTech Risk Management,11,64,Passed
+879,1263,Benjiman Montgomery,11,FinTech Risk Management,11,66,Passed
+880,1212,Ezra Duncan,11,FinTech Risk Management,11,92,Passed
+881,1045,Anthony Hall,11,FinTech Risk Management,11,58,Failed
+882,1199,Neal Spencer,11,FinTech Risk Management,11,83,Passed
+883,1222,Forrest Berry,11,FinTech Risk Management,11,74,Passed
+884,1172,Max Palmer,11,FinTech Risk Management,11,73,Passed
+885,1108,Elbert Butler,11,FinTech Risk Management,11,91,Passed
+886,1118,Emmett Alexander,11,FinTech Risk Management,11,90,Passed
+887,1138,Pearl Castro,11,FinTech Risk Management,11,64,Passed
+888,1268,Archibald Gilbert,11,FinTech Risk Management,11,86,Passed
+889,1205,Joel Peters,11,FinTech Risk Management,11,73,Passed
+890,1019,Jack Jackson,11,FinTech Risk Management,11,90,Passed
+891,1133,Stanley Medina,11,FinTech Risk Management,12,90,Passed
+892,1336,Erastus Powers,11,FinTech Risk Management,12,76,Passed
+893,1117,Augustus Patterson,11,FinTech Risk Management,12,96,Passed
+894,1321,Wash Stanley,11,FinTech Risk Management,12,90,Passed
+895,1347,Bertram Jennings,11,FinTech Risk Management,12,97,Passed
+896,1233,Ambrose Sandoval,11,FinTech Risk Management,12,93,Passed
+897,1131,Elias Ellis,11,FinTech Risk Management,12,78,Passed
+898,1190,Cecil Stephens,11,FinTech Risk Management,12,69,Passed
+899,1029,Raymond Lewis,11,FinTech Risk Management,12,81,Passed
+900,1261,Wilbert Vega,11,FinTech Risk Management,12,94,Passed
+901,1184,Marcus Rice,11,FinTech Risk Management,12,58,Failed
+902,1345,Adrian Schwartz,11,FinTech Risk Management,12,81,Passed
+903,1169,Emery Hunt,11,FinTech Risk Management,12,58,Failed
+904,1314,Orval Barrett,11,FinTech Risk Management,12,91,Passed
+905,1161,Sherman Gordon,11,FinTech Risk Management,12,63,Passed
+906,1326,Dee Chambers,11,FinTech Risk Management,12,93,Passed
+907,1250,Forest Morrison,11,FinTech Risk Management,13,69,Passed
+908,1303,Wayne Brewer,11,FinTech Risk Management,13,89,Passed
+909,1155,Millard Burns,11,FinTech Risk Management,13,93,Passed
+910,1114,Morris Simmons,11,FinTech Risk Management,13,87,Passed
+911,1317,Elliott Keller,11,FinTech Risk Management,13,82,Passed
+912,1305,Clem Holland,11,FinTech Risk Management,13,64,Passed
+913,1323,Allan Campos,11,FinTech Risk Management,13,90,Passed
+914,1025,Archie Harris,11,FinTech Risk Management,13,77,Passed
+915,1318,Hans Avila,11,FinTech Risk Management,13,76,Passed
+916,1170,Grant Hicks,11,FinTech Risk Management,13,69,Passed
+917,1289,Laurence Park,11,FinTech Risk Management,13,85,Passed
+918,1296,Johnnie Bowman,11,FinTech Risk Management,14,61,In Progress
+919,1278,Carroll Mccoy,11,FinTech Risk Management,14,67,In Progress
+920,1228,Gustav Richards,11,FinTech Risk Management,14,84,In Progress
+921,1349,Ephraim Duran,11,FinTech Risk Management,14,87,In Progress
+922,1256,Douglas Lawson,11,FinTech Risk Management,14,76,In Progress
+923,1348,Clay Watts,11,FinTech Risk Management,14,64,In Progress
+924,1113,Anton Vasquez,11,FinTech Risk Management,14,77,In Progress
+925,1186,Bob Garza,11,FinTech Risk Management,14,62,In Progress
+926,1041,Jerry Green,11,FinTech Risk Management,14,87,In Progress
+927,1320,Minor Molina,11,FinTech Risk Management,14,84,In Progress
+928,1310,Lafayette Cortez,11,FinTech Risk Management,14,84,In Progress
+929,1332,Micheal Craig,11,FinTech Risk Management,14,84,In Progress
+930,1194,Anderson Gardner,11,FinTech Risk Management,15,22,In Progress
+931,1167,Byron Dixon,11,FinTech Risk Management,15,23,In Progress
+932,1242,Josh Nunez,11,FinTech Risk Management,15,21,In Progress
+933,1329,Johnny Lambert,11,FinTech Risk Management,15,17,In Progress
+934,1086,Percy Bennett,11,FinTech Risk Management,15,23,In Progress
+935,1050,Leroy Roberts,11,FinTech Risk Management,15,22,In Progress
+936,1090,Felix Hughes,11,FinTech Risk Management,15,25,In Progress
+937,1123,Harley Wallace,11,FinTech Risk Management,15,19,In Progress
+938,1141,Arch Harrison,11,FinTech Risk Management,15,22,In Progress
+939,1279,Freeman Garrett,11,FinTech Risk Management,15,22,In Progress
+940,1241,Allie Greene,11,FinTech Risk Management,15,15,In Progress
+941,1054,Franklin Turner,11,FinTech Risk Management,15,18,In Progress
+942,1069,Jay Morgan,11,FinTech Risk Management,15,15,In Progress
+943,1001,Charley Smith,11,FinTech Risk Management,15,21,In Progress
+944,1281,Milo Fuller,11,FinTech Risk Management,15,16,In Progress
+945,1237,General Rios,11,FinTech Risk Management,15,19,In Progress
+946,1105,Abraham Sullivan,11,FinTech Risk Management,15,17,In Progress
+947,1004,Isaac Brown,11,FinTech Risk Management,15,23,In Progress
+948,1206,Matt Santos,11,FinTech Risk Management,15,22,In Progress
+949,1351,Giles Cohen,12,Types of Conflict,12,89,Passed
+950,1159,Miles Porter,12,Types of Conflict,12,69,Passed
+951,1205,Joel Peters,12,Types of Conflict,12,95,Passed
+952,1012,Theodore Lopez,12,Types of Conflict,12,90,Passed
+953,1246,Pedro Burke,12,Types of Conflict,12,96,Passed
+954,1112,Wiley Fisher,12,Types of Conflict,12,86,Passed
+955,1343,Wilmer Rhodes,12,Types of Conflict,12,94,Passed
+956,1051,Wesley Gomez,12,Types of Conflict,12,87,Passed
+957,1099,Simon Foster,12,Types of Conflict,12,98,Passed
+958,1172,Max Palmer,12,Types of Conflict,12,99,Passed
+959,1194,Anderson Gardner,12,Types of Conflict,12,93,Passed
+960,1238,Julian Estrada,12,Types of Conflict,12,68,Passed
+961,1340,Randolph Carrillo,12,Types of Conflict,12,69,Passed
+962,1320,Minor Molina,12,Types of Conflict,12,97,Passed
+963,1301,Jordan Davidson,12,Types of Conflict,12,83,Passed
+964,1306,Evan Juarez,12,Types of Conflict,13,76,Passed
+965,1221,Taylor Delgado,12,Types of Conflict,13,89,Passed
+966,1190,Cecil Stephens,12,Types of Conflict,13,91,Passed
+967,1197,Jefferson Dunn,12,Types of Conflict,13,86,Passed
+968,1339,Lucien Gregory,12,Types of Conflict,13,70,Passed
+969,1336,Erastus Powers,12,Types of Conflict,13,95,Passed
+970,1037,Ray Torres,12,Types of Conflict,13,90,Passed
+971,1106,Virgil Bell,12,Types of Conflict,13,69,Passed
+972,1015,Alexander Anderson,12,Types of Conflict,13,88,Passed
+973,1202,Myron Pierce,12,Types of Conflict,13,67,Passed
+974,1270,Clint Sims,12,Types of Conflict,13,88,Passed
+975,1158,Cyrus Simpson,12,Types of Conflict,13,86,Passed
+976,1108,Elbert Butler,12,Types of Conflict,13,92,Passed
+977,1346,Alvah Norris,12,Types of Conflict,13,91,Passed
+978,1118,Emmett Alexander,12,Types of Conflict,13,61,Passed
+979,1047,Amos Campbell,12,Types of Conflict,13,84,Passed
+980,1083,Jake Chavez,12,Types of Conflict,14,75,In Progress
+981,1272,Granville Howell,12,Types of Conflict,14,73,In Progress
+982,1132,Harrison Tran,12,Types of Conflict,14,80,In Progress
+983,1235,Elisha George,12,Types of Conflict,14,64,In Progress
+984,1093,Claud Castillo,12,Types of Conflict,14,79,In Progress
+985,1065,Adam Cook,12,Types of Conflict,14,62,In Progress
+986,1058,Harold Edwards,12,Types of Conflict,14,52,In Progress
+987,1289,Laurence Park,12,Types of Conflict,14,57,In Progress
+988,1273,King Li,12,Types of Conflict,14,80,In Progress
+989,1245,Napoleon Harper,12,Types of Conflict,14,53,In Progress
+990,1204,Conrad Hansen,12,Types of Conflict,14,63,In Progress
+991,1256,Douglas Lawson,12,Types of Conflict,14,80,In Progress
+992,1334,Addison Lowe,12,Types of Conflict,14,82,In Progress
+993,1155,Millard Burns,12,Types of Conflict,14,77,In Progress
+994,1128,Curtis Bryant,12,Types of Conflict,14,71,In Progress
+995,1029,Raymond Lewis,12,Types of Conflict,14,76,In Progress
+996,1119,Eli Hamilton,12,Types of Conflict,14,56,In Progress
+997,1125,Timothy West,12,Types of Conflict,14,70,In Progress
+998,1169,Emery Hunt,12,Types of Conflict,15,16,In Progress
+999,1111,Owen Gonzales,12,Types of Conflict,15,15,In Progress
+1000,1167,Byron Dixon,12,Types of Conflict,15,14,In Progress
+1001,1312,Madison Schneider,12,Types of Conflict,15,11,In Progress
+1002,1129,Edmund Herrera,12,Types of Conflict,15,13,In Progress
+1003,1149,Hubert Henry,12,Types of Conflict,15,15,In Progress
+1004,1069,Jay Morgan,12,Types of Conflict,15,10,In Progress
+1005,1027,Chester Clark,12,Types of Conflict,15,13,In Progress
+1006,1165,Lonnie Snyder,12,Types of Conflict,15,13,In Progress
+1007,1277,Bennie Le,12,Types of Conflict,15,14,In Progress
+1008,1330,Lawson Miranda,12,Types of Conflict,15,10,In Progress
+1009,1134,Columbus Aguilar,12,Types of Conflict,15,14,In Progress
+1010,1064,Winfield Murphy,12,Types of Conflict,15,13,In Progress
+1011,1315,Abram Navarro,12,Types of Conflict,15,11,In Progress
+1012,1309,Junius Curtis,12,Types of Conflict,15,14,In Progress
+1013,1347,Bertram Jennings,12,Types of Conflict,15,13,In Progress
+1014,1019,Jack Jackson,12,Types of Conflict,15,7,In Progress
+1015,1002,Paul Johnson,12,Types of Conflict,15,14,In Progress
+1016,1102,Mark Jenkins,12,Types of Conflict,15,13,In Progress
+1017,1344,Zack Shelton,12,Types of Conflict,15,13,In Progress

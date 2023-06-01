@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "typeRoots": ["node_modules/@types", "types"],
+    "types": [
+      "node",
+      "cypress",
+      "@testing-library/cypress",
+      "@testing-library/jest-dom"
+    ],
+    "target": "es6",
+    "lib": ["es6", "dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "outDir": ".next",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@cypress/*": ["cypress/*"],
+      "@components/*": ["src/components/*"],
+      "@config/*": ["src/config/*"],
+      "@constants/*": ["src/constants/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@pages/*": ["src/pages/*"],
+      "@stores/*": ["src/stores/*"],
+      "@utils/*": ["src/utils/*"],
+      "@test/*": ["test/*"]
+    },
+    "rootDirs": ["."],
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "types/**/*.d.ts",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "cypress",
+    "node_modules",
+    "public/**",
+    "package-lock.json",
+    "yarn-lock.json",
+    ".github",
+    ".next",
+    "out",
+    "**/*.spec.{js,jsx,ts,tsx}"
+  ]
+}

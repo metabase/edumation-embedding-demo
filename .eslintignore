@@ -1,0 +1,6 @@
+*.config.js
+.*.js
+lint/
+public/
+.next/
+out/

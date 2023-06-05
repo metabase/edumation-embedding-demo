@@ -29,6 +29,10 @@ In order to run the embedding demo on your local, you need to have installed:
     METABASE_APP_DOMAIN="metabase.com"
     ```
 
+##### ⚠️ Warning
+
+If you are creating your own repository, do not commit the `.env.local` as it contains your instance's JWT shared secret that needs to stay **secret**.
+
 #### Start
 
 1. Using the terminal, go to the root of the project

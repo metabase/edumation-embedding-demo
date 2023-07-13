@@ -13,6 +13,26 @@ In order to run the embedding demo on your local, you need to have installed:
 
 ### Install
 
+#### Configuration
+
+1. Open the [.env.local](https://github.com/metabase/edumation-embedding-demo/blob/master/.env.local) file
+2. Add your [JWT](https://www.metabase.com/glossary/jwt) shared secret as follow:
+
+    ```yaml
+    METABASE_JWT_SHARED_SECRET="edumation-MB-instance-shared-secret"
+    ```
+
+3. Update all `.env.*` files relevant properties to match your Metabase instance:
+
+    ```yaml
+    METABASE_APP_ID="edumation"
+    METABASE_APP_DOMAIN="metabase.com"
+    ```
+
+> ⚠️ Warning: avoid committing the `.env.local` file, as that file contains your instance's JWT shared secret that needs to stay **secret**.
+
+#### Start
+
 1. Using the terminal, go to the root of the project
 2. Run the command ```yarn``` to install the Node packages
 3. Run the command ```yarn dev``` to start the app

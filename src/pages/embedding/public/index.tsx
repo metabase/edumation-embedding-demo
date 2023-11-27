@@ -14,6 +14,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { ReactElement, useCallback, useEffect, useState } from "react";
+import { getEmbeddingOptions } from "@utils/config";
 
 export default function PublicEmbeddingPage(): ReactElement {
   const router = useRouter();
@@ -34,16 +35,13 @@ export default function PublicEmbeddingPage(): ReactElement {
   );
 
   // styles
-  const [appStyles, setAppStyles] = useState<IPublicIFrameStyleProps>();
+  const [appStyles, setAppStyles] = useState<IPublicIFrameStyleProps>(
+    getEmbeddingOptions(query),
+  );
+
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      setAppStyles({
-        bordered: query["bordered"] ? true : false,
-        titled: query["titled"] ? true : false,
-        hide_download_button: query["hide_download_button"] ? true : false,
-        theme: query["theme"] ? String(query["theme"]) : undefined,
-        font: query["font"] ? String(query["font"]) : undefined,
-      } as IPublicIFrameStyleProps);
+      setAppStyles(getEmbeddingOptions(query));
     }, 500);
 
     return () => {

@@ -5,8 +5,8 @@ import {
   PUBLIC_IFRAME_STYLE_THEMES,
 } from "./constants";
 
-type ThemeType = (typeof PUBLIC_IFRAME_STYLE_THEMES)[number];
-type FontType = (typeof PUBLIC_IFRAME_STYLE_FONTS)[number];
+export type ThemeType = (typeof PUBLIC_IFRAME_STYLE_THEMES)[number];
+export type FontType = (typeof PUBLIC_IFRAME_STYLE_FONTS)[number];
 
 export interface IPublicIFrameStyleProps {
   bordered?: boolean;

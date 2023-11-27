@@ -146,6 +146,7 @@ export default function PublicEmbeddingPage(): ReactElement {
         </PageHeader>
 
         <PublicIFrame
+          key={window?.location.search}
           src="/question/88bbf0d1-8982-47a9-9914-dbc29af6b36c"
           appStyles={appStyles}
           iFrameStyles={{ fullHeight: true }}

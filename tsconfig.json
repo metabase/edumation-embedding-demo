@@ -2,12 +2,7 @@
   "compilerOptions": {
     "jsx": "preserve",
     "typeRoots": ["node_modules/@types", "types"],
-    "types": [
-      "node",
-      "cypress",
-      "@testing-library/cypress",
-      "@testing-library/jest-dom"
-    ],
+    "types": ["node", "@testing-library/jest-dom"],
     "target": "es6",
     "lib": ["es6", "dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -30,7 +25,6 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "paths": {
-      "@cypress/*": ["cypress/*"],
       "@components/*": ["src/components/*"],
       "@config/*": ["src/config/*"],
       "@constants/*": ["src/constants/*"],
@@ -52,7 +46,6 @@
     "**/*.tsx"
   ],
   "exclude": [
-    "cypress",
     "node_modules",
     "public/**",
     "package-lock.json",

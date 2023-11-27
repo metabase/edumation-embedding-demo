@@ -1,10 +1,6 @@
 module.exports = {
   globals: {
     process: "readonly",
-    pending: false,
-    before: true,
-    cy: true,
-    Cypress: true,
   },
   env: {
     browser: true,

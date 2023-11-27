@@ -48,6 +48,7 @@ export default function IFrame({
       <IFrameContent horPadding={horPadding}>
         <IFrameTag
           ref={iFrameRef}
+          data-testid="embedding-iframe"
           src={src}
           frameBorder={0}
           onError={(err) => console.error(err)}

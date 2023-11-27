@@ -40,13 +40,7 @@ export default function PublicEmbeddingPage(): ReactElement {
   );
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      setAppStyles(getEmbeddingOptions(query));
-    }, 500);
-
-    return () => {
-      clearTimeout(timeoutId);
-    };
+    setAppStyles(getEmbeddingOptions(query));
   }, [query]);
 
   // code
@@ -58,6 +52,7 @@ export default function PublicEmbeddingPage(): ReactElement {
   height="<height>"
   width="<width>">
 </iframe>`;
+  const appStylesKey = JSON.stringify(appStyles); // unique key to trigger iframe full reload on params change
 
   return (
     <>
@@ -144,8 +139,8 @@ export default function PublicEmbeddingPage(): ReactElement {
         </PageHeader>
 
         <PublicIFrame
-          key={window?.location.search}
           src="/question/88bbf0d1-8982-47a9-9914-dbc29af6b36c"
+          key={appStylesKey}
           appStyles={appStyles}
           iFrameStyles={{ fullHeight: true }}
         />

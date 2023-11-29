@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-import { render, screen } from "@testing-library/react";
+import { act, render, screen } from "@testing-library/react";
 import PublicEmbeddingPage from "@pages/embedding/public";
 import mockRouter from "next-router-mock";
 import { defaultTheme } from "@constants/theme";
@@ -24,10 +24,10 @@ describe("PublicEmbeddingPage", () => {
     expect(iframe).toBeInTheDocument();
   });
 
-  it("re-renders iframe on font settings change", () => {
+  it("passes new parameters to iframe on font settings change", () => {
     mockRouter.push("/embedding/public");
 
-    const { rerender } = render(
+    render(
       <ThemeProvider theme={defaultTheme}>
         <PublicEmbeddingPage />
       </ThemeProvider>,
@@ -37,16 +37,14 @@ describe("PublicEmbeddingPage", () => {
       "&font=false",
     );
 
-    mockRouter.push("/embedding/public?font=Ubuntu");
+    act(() => {
+      mockRouter.push("/embedding/public?font=Ubuntu");
+    });
 
-    rerender(
-      <ThemeProvider theme={defaultTheme}>
-        <PublicEmbeddingPage />
-      </ThemeProvider>,
-    );
-
-    expect(screen.getByTestId("embedding-iframe").getAttribute("src")).toMatch(
-      "&font=Ubuntu",
-    );
+    const iframeEl = screen.getByTestId(
+      "embedding-iframe",
+    ) as HTMLIFrameElement;
+    expect(iframeEl.getAttribute("src")).toMatch("&font=Ubuntu");
+    expect(iframeEl.contentWindow?.location.href).toMatch("&font=Ubuntu");
   });
 });

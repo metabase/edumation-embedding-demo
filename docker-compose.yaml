@@ -5,11 +5,11 @@ services:
     build: metabase-build/.
     container_name: metabase_full_app_embedding_demo
     hostname: metabase
-    volumes: 
+    volumes:
     - /dev/urandom:/dev/random:ro
     ports:
       - 3000:3000
-    environment: 
+    environment:
       - MB_SITE_URL=http://localhost:3000
       # - MB_SESSION_COOKIE_SAMESITE=None
       - MB_EMBEDDING_APP_ORIGIN=*
@@ -30,7 +30,7 @@ services:
       - MB_APPLICATION_LOGO_URL=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iMTAiIGZpbGw9IiM3RjU2RDkiLz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfaV81MzJfMjU0OTcpIj4KPHJlY3QgeD0iNS42NDcwNiIgeT0iNS42NDcwOSIgd2lkdGg9IjIwLjcwNTkiIGhlaWdodD0iMjAuNzA1OSIgcng9IjUiIGZpbGw9IiM2OTQxQzYiLz4KPC9nPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMV9pXzUzMl8yNTQ5NykiPgo8cmVjdCB4PSI5LjM0NDY3IiB5PSIxNiIgd2lkdGg9IjkuNDExNzciIGhlaWdodD0iOS40MTE3NyIgcng9IjIuNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1IDkuMzQ0NjcgMTYpIiBmaWxsPSIjNTMzODlFIi8+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfaV81MzJfMjU0OTciIHg9IjUuNjQ3MDYiIHk9IjUuNjQ3MDkiIHdpZHRoPSIyMC43MDU5IiBoZWlnaHQ9IjI0LjcwNTkiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiIHJlc3VsdD0iaGFyZEFscGhhIi8+CjxmZU9mZnNldCBkeT0iNCIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIyIi8+CjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9ImFyaXRobWV0aWMiIGsyPSItMSIgazM9IjEiLz4KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMjUgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0ic2hhcGUiIHJlc3VsdD0iZWZmZWN0MV9pbm5lclNoYWRvd181MzJfMjU0OTciLz4KPC9maWx0ZXI+CjxmaWx0ZXIgaWQ9ImZpbHRlcjFfaV81MzJfMjU0OTciIHg9IjEwLjM4MDIiIHk9IjEwLjM4MDQiIHdpZHRoPSIxMS4yMzkyIiBoZWlnaHQ9IjE1LjIzOTMiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiIHJlc3VsdD0iaGFyZEFscGhhIi8+CjxmZU9mZnNldCBkeT0iNCIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIyIi8+CjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9ImFyaXRobWV0aWMiIGsyPSItMSIgazM9IjEiLz4KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMjUgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0ic2hhcGUiIHJlc3VsdD0iZWZmZWN0MV9pbm5lclNoYWRvd181MzJfMjU0OTciLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg==
       - MB_ANON_TRACKING_ENABLED=false
       - MB_JWT_GROUP_MAPPINGS={"Read Only":[3],"Professors":[4]}
-    networks: 
+    networks:
       - metanet1
     healthcheck:
       test: curl --fail -I http://localhost:3000/api/health || exit 1
@@ -39,6 +39,8 @@ services:
       retries: 5
     depends_on:
       metabase_app_db:
+        condition: service_healthy
+      edumation_data:
         condition: service_healthy
   # this is the container that runs the webapp
   node_full_app_embedding_demo:
@@ -64,7 +66,7 @@ services:
       - "POSTGRES_USER=metabase"
       - "POSTGRES_DB=metabase"
       - "POSTGRES_PASSWORD=mysecretpassword"
-    networks: 
+    networks:
       - metanet1
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U metabase -d metabase"]
@@ -78,7 +80,7 @@ services:
     hostname: edumation_data
     environment:
       - "POSTGRES_PASSWORD=edumation"
-    networks: 
+    networks:
       - metanet1
     volumes:
       - $PWD/edumation-db:/docker-entrypoint-initdb.d
@@ -87,6 +89,6 @@ services:
       interval: 60s
       timeout: 10s
       retries: 10
-networks: 
+networks:
   metanet1:
     driver: bridge

@@ -5,3 +5,5 @@ export {
   isStaging,
   isProduction,
 } from "./config";
+
+export { getEmbeddingOptions } from "./embedding-config";

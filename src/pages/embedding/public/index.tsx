@@ -14,6 +14,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { ReactElement, useCallback, useEffect, useState } from "react";
+import { getEmbeddingOptions } from "@utils/config";
 
 export default function PublicEmbeddingPage(): ReactElement {
   const router = useRouter();
@@ -34,21 +35,12 @@ export default function PublicEmbeddingPage(): ReactElement {
   );
 
   // styles
-  const [appStyles, setAppStyles] = useState<IPublicIFrameStyleProps>();
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      setAppStyles({
-        bordered: query["bordered"] ? true : false,
-        titled: query["titled"] ? true : false,
-        hide_download_button: query["hide_download_button"] ? true : false,
-        theme: query["theme"] ? String(query["theme"]) : undefined,
-        font: query["font"] ? String(query["font"]) : undefined,
-      } as IPublicIFrameStyleProps);
-    }, 500);
+  const [appStyles, setAppStyles] = useState<IPublicIFrameStyleProps>(
+    getEmbeddingOptions(query),
+  );
 
-    return () => {
-      clearTimeout(timeoutId);
-    };
+  useEffect(() => {
+    setAppStyles(getEmbeddingOptions(query));
   }, [query]);
 
   // code
@@ -60,6 +52,7 @@ export default function PublicEmbeddingPage(): ReactElement {
   height="<height>"
   width="<width>">
 </iframe>`;
+  const appStylesKey = JSON.stringify(appStyles); // unique key to trigger iframe full reload on params change
 
   return (
     <>
@@ -147,6 +140,7 @@ export default function PublicEmbeddingPage(): ReactElement {
 
         <PublicIFrame
           src="/question/88bbf0d1-8982-47a9-9914-dbc29af6b36c"
+          key={appStylesKey}
           appStyles={appStyles}
           iFrameStyles={{ fullHeight: true }}
         />

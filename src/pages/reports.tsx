@@ -19,6 +19,7 @@ export default function ReportsPage(): ReactElement {
             new_button: true,
             side_nav: true,
             top_nav: true,
+            entity_types: model,
           }}
           iFrameStyles={{ fullHeight: true }}
         />

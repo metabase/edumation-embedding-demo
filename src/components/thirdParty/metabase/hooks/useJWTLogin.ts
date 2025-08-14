@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useState } from "react";
 import { IUseJWTLoginProps, IUseJWTLoginRes } from "./types";
+import { DEFAULT_EXPIRATION_SECONDS } from "../utils/constants";
 
 export function useJWTLogin({
   appId = process.env.METABASE_APP_ID,
   user,
   returnTo = "/",
-  expiresIn,
+  expiresInSeconds = DEFAULT_EXPIRATION_SECONDS,
 }: IUseJWTLoginProps = {}): IUseJWTLoginRes {
   const [requestDate, setRequestDate] = useState<Date>();
   const [jwt, setJWT] = useState<string>();
@@ -24,7 +25,7 @@ export function useJWTLogin({
           appId,
           user,
           returnTo,
-          expiresIn, // Not used: see FIX
+          exp: Math.floor(Date.now() / 1000) + expiresInSeconds, // Not used: see FIX
         }),
       });
       const data = await response.json();
@@ -37,7 +38,7 @@ export function useJWTLogin({
       setError(err.message || err);
       console.error(err);
     }
-  }, [appId, user, returnTo, expiresIn]);
+  }, [appId, user, returnTo, expiresInSeconds]);
 
   useEffect(() => {
     getUrlAsync();

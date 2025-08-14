@@ -6,13 +6,13 @@ import { IJWTProviderProps } from "./types";
 export default function JWTProvider({
   appId,
   user,
-  expiresIn,
+  expiresInSeconds,
   children,
 }: PropsWithChildren<IJWTProviderProps>): ReactElement {
   const { jwt, loading, error } = useJWTLogin({
     appId,
     user,
-    expiresIn,
+    expiresInSeconds,
   });
 
   if (loading) {

@@ -1,9 +1,10 @@
 import type { NextApiRequest, NextApiResponse } from "next";
+import type { JwtPayload } from "jsonwebtoken";
 import { sign } from "jsonwebtoken";
 import { format } from "url";
 import { getAppUrl } from "@components/thirdParty/metabase/utils";
 import {
-  DEFAULT_EXPIRATION,
+  DEFAULT_EXPIRATION_SECONDS,
   DUMMY_USER,
 } from "@components/thirdParty/metabase/utils/constants";
 import { IUseJWTLoginProps } from "@components/thirdParty/metabase/hooks/types";
@@ -16,7 +17,7 @@ export default async function handler(
     appId,
     user = DUMMY_USER,
     returnTo = "/",
-    expiresIn = DEFAULT_EXPIRATION,
+    expiresInSeconds = DEFAULT_EXPIRATION_SECONDS,
   } = req.body as IUseJWTLoginProps;
   if (req.method === "POST") {
     const METABASE_JWT_SHARED_SECRET =
@@ -26,8 +27,8 @@ export default async function handler(
     const jwt = sign(
       {
         ...user,
-        expiresIn,
-      },
+        exp: Math.floor(Date.now() / 1000) + expiresInSeconds,
+      } as JwtPayload,
       METABASE_JWT_SHARED_SECRET,
     );
 

@@ -4,7 +4,7 @@ export interface IUseJWTLoginProps {
   appId?: string;
   user?: IUser;
   returnTo?: string;
-  expiresIn?: string;
+  expiresInSeconds?: number;
 }
 
 export interface IUseJWTLoginRes {

@@ -35,7 +35,7 @@ export default function App({
         <title>Edumation</title>
       </Head>
 
-      <JWTProvider user={account} expiresIn="2 days">
+      <JWTProvider user={account}>
         <ThemeProvider theme={defaultTheme}>
           <GlobalStyle />
           <Nav />

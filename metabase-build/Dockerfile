@@ -1,10 +1,10 @@
-FROM eclipse-temurin:11-jre-focal as runner
+FROM eclipse-temurin:21-jre-noble as runner
 
 ENV FC_LANG en-US LC_CTYPE en_US.UTF-8
 
 WORKDIR /app/
 
-RUN apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends ttf-dejavu && \
+RUN apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends fonts-dejavu && \
     # cleaning everything to reduce container size
     apt-get autoremove -y && apt-get autoclean && \
     rm -rf /var/lib/apt/lists/* && \

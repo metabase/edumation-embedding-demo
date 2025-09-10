@@ -8,4 +8,4 @@ export const DUMMY_USER: IUser = {
   groups: ["Read Only"],
 };
 
-export const DEFAULT_EXPIRATION = "2 days";
+export const DEFAULT_EXPIRATION_SECONDS = 5 * 60; // 5 minutes

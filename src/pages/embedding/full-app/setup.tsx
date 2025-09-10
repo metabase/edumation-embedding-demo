@@ -2,6 +2,7 @@ import PageContainer from "@components/container/PageContainer";
 import PageHeader from "@components/layout/PageHeader";
 import Head from "next/head";
 import { ReactElement, useEffect, useState } from "react";
+import type { JwtPayload } from "jsonwebtoken";
 import { sign } from "jsonwebtoken";
 import ImageWrapper from "@components/ui/ImageWrapper";
 import { getAppUrl } from "@components/thirdParty/metabase/utils";
@@ -13,7 +14,7 @@ const iFrameCodeFullAppSign = `const jsonwebtoken = sign(
     first_name: <first name>,
     last_name: <last name>,
     groups: ["Read Only"],
-    expiresIn: "2 days",
+    exp: Math.floor(Date.now() / 1000) + <expiration seconds>
   },
   <JWT shared secret key>,
 );`;
@@ -37,8 +38,8 @@ export default function SimpleEmbeddingPage(): ReactElement {
         first_name: "Dummy",
         last_name: "User",
         groups: ["Read Only"],
-        expiresIn: "2 days",
-      },
+        exp: Math.floor(Date.now() / 1000) + 5 * 60, // 5 minutes
+      } as JwtPayload,
       METABASE_JWT_SHARED_SECRET,
     );
     setTheJWT(jwt);
